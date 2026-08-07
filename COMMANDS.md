@@ -37,6 +37,38 @@ After the batch completes it prints all variants as `#i  seed  s3_key`, then a
 bare list of the S3 keys. Pick the best take and re-render with a higher canvas
 for finals. R2V ignores turbo requests (warns + coerces to full/20).
 
+#### External prompt + refs (`--prompt-file` / `--ref-names`)
+```
+modal run api.py::batch --prompt-file "Drunken Master/alley.txt" \
+    --ref-names "drunken_master.png,alleyway_henchman.png" \
+    --ref-subdir "drunken_master" --ref-image-size match --duration 10
+```
+`--ref-names` is a comma-separated list mapping positionally to `<Subject N>`
+in the prompt file (keep ref order in lockstep with the tags). `--ref-subdir`
+is the refs-volume subfolder to stage from (default `scene1`).
+
+#### Multi-scene warm batch (`r2v_multi` — one warm L40S, back-to-back scenes)
+```
+modal run api.py::r2v_multi --scenes "Drunken Master/scenes.json"
+```
+`--scenes` is a JSON manifest, one entry per scene, looped on a single warm
+container (re-boot happens only before the first scene):
+```json
+{
+  "alley":   {"prompt_file": "Drunken Master/alley.txt",
+              "ref_names": ["drunken_master.png","alleyway_henchman.png"],
+              "duration": 10.0, "width": 864, "height": 480,
+              "ref_image_size": "match", "ref_subdir": "drunken_master"},
+  "kitchen": {"prompt_file": "Drunken Master/kitchen.txt",
+              "ref_names": ["drunken_master.png","sushi_chef.png"],
+              "duration": 10.0, "width": 864, "height": 480,
+              "ref_image_size": "match", "ref_subdir": "drunken_master"}
+}
+```
+Run `r2v_multi` via the remote-app path; each scene runs sequentially on the
+same L40S (~7 min at 864×480/match per scene). Stage the scene's refs to the
+volume subfolder first (e.g. `modal volume put -f h3-refs "Drunken Master/Assets" /drunken_master`).
+
 ### T2V (text-to-video; no reference images; fl2va model)
 ```
 modal run api.py::batch --task t2v --prompt "<text>"                          # turbo 4-step, 5s/864x480
@@ -88,6 +120,9 @@ modal run main.py
 | `--width`/`--height` | int | `864`/`480` | Must be multiples of 32. Default canvas is 864×480 (0.4MP); 768×1344 = MAX_PIXELS. |
 | `--ref-image-size` | str | `"max"` | R2V: `max` (2048px short edge, strong identity — default) or `match` (scale refs to canvas, cheap scout only). |
 | `--lora-strength` | float | `1.0` | Turbo LoRA strength (T2V turbo mode only). |
+| `--prompt-file` | str | `None` | R2V: external prompt file (e.g. `Drunken Master/alley.txt`). Overrides SCENES manifest. |
+| `--ref-names` | str | `None` | R2V: comma-separated ref filenames (positional, `<Subject N>` order). |
+| `--ref-subdir` | str | `None` | R2V: refs-volume subfolder to stage from (default `scene1`). |
 
 ## Parameter reference — `comfy_app.py::main`
 | Flag | Default | Description |

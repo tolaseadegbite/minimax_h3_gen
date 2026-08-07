@@ -1,0 +1,20 @@
+{
+  "alley": {
+    "prompt_file": "Drunken Master/alley.txt",
+    "ref_names": ["drunken_master.png", "alleyway_henchman.png"],
+    "duration": 10.0,
+    "width": 864,
+    "height": 480,
+    "ref_image_size": "match",
+    "ref_subdir": "drunken_master"
+  },
+  "kitchen": {
+    "prompt_file": "Drunken Master/kitchen.txt",
+    "ref_names": ["drunken_master.png", "sushi_chef.png"],
+    "duration": 10.0,
+    "width": 864,
+    "height": 480,
+    "ref_image_size": "match",
+    "ref_subdir": "drunken_master"
+  }
+}

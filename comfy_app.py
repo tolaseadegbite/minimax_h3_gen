@@ -242,10 +242,10 @@ class ComfyRunner:
     def base_url(self) -> str:
         return f"http://{self.host}:{self.port}"
 
-    def _stage(self, ref_names):
+    def _stage(self, ref_names, ref_subdir=None):
         input_dir = os.path.join(self.comfy_dir, "input")
         os.makedirs(input_dir, exist_ok=True)
-        src_dir = os.path.join(self.refs_dir, self.ref_subdir)
+        src_dir = os.path.join(self.refs_dir, ref_subdir or self.ref_subdir)
         for name in ref_names:
             shutil.copy(os.path.join(src_dir, name), os.path.join(input_dir, name))
 
@@ -316,7 +316,7 @@ class ComfyRunner:
                  duration: float, width: int, height: int, mode: str = "turbo",
                  steps: int | None = None, lora_strength: float = 1.0,
                  seed: int = 0, ref_image_size: str = "max",
-                 task: str = "r2v") -> str:
+                 task: str = "r2v", ref_subdir: str | None = None) -> str:
         t = time.time()
         if task == "t2v":
             if steps is None:
@@ -330,7 +330,7 @@ class ComfyRunner:
                 print(f"[warn] R2V has no turbo LoRA ({TURBO_LORA} is T2V-only); "
                       f"forcing full res_multistep / 20 steps.")
             mode, steps = "full", 20
-            self._stage(ref_names)
+            self._stage(ref_names, ref_subdir=ref_subdir)
             payload = build_prompt(
                 ref_names=ref_names, ported_prompt=port_prompt(prompt),
                 width=width, height=height, length=frame_length_for(duration),
@@ -439,7 +439,7 @@ class H3Generator:
                       height: int = 480, mode: str = "turbo",
                       steps: int | None = None, lora_strength: float = 1.0,
                       seed: int = 0, ref_image_size: str = "max",
-                      task: str = "r2v") -> dict:
+                      task: str = "r2v", ref_subdir: str | None = None) -> dict:
         if not _models_present():
             raise RuntimeError(
                 "comfyui-models volume is missing model files. Run first:\n"
@@ -453,7 +453,7 @@ class H3Generator:
             prompt=prompt, ref_names=ref_names,
             duration=duration, width=width, height=height, mode=mode,
             steps=steps, lora_strength=lora_strength, seed=seed,
-            ref_image_size=ref_image_size, task=task)
+            ref_image_size=ref_image_size, task=task, ref_subdir=ref_subdir)
         t_up = time.time()
         import boto3
         key = f"videos/h3_comfy_{uuid.uuid4()}.mp4"
