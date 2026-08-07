@@ -4,17 +4,16 @@ Mirrors the Scene-1 reference/order contract of ``main.py`` (the diffusers
 ground truth) but routes through the cheap ComfyUI/L40S path. Add more scenes
 to SCENES to batch the whole commercial.
 
-Render one or more variants of a scene (default modes: turbo, 4 steps) on a
-single warm L40S container, then pick the best take and re-render its ``--seed``
-in ``--mode full`` for finals.
+Render one or more variants of a scene (R2V: full-quality only, refs at
+``max``, 20 steps) on a single warm L40S container, then pick the best take and
+re-render its ``--seed`` at a higher canvas for finals. For cheap T2V iteration,
+use ``--task t2v`` (turbo supported there).
 
 Usage
 -----
-    modal run api.py --scene 1                          # 1 variant, turbo, 4 steps
-    modal run api.py --scene 1 --variants 4             # 4 distinct takes
-    modal run api.py --scene 1 --variants 4 --steps 8    # 8-step takes
-    modal run api.py --scene 1 --variants 2 --mode full  # 20-step finals
-    modal run api.py --task t2v --prompt "..." --steps 4  # text-to-video (no refs)
+    modal run api.py::batch --scene 1 --variants 2      # R2V, full/20, max refs
+    modal run api.py::batch --scene 1 --variants 4 --steps 20
+    modal run api.py::batch --task t2v --prompt "..." --mode turbo  # cheap T2V takes
 """
 
 from __future__ import annotations
@@ -42,8 +41,8 @@ SCENES: dict[str, dict] = {
 
 def generate_scene(gen: H3Generator, scene_id: str, seed: int,
                    mode: str = "turbo", steps: int | None = None,
-                   ref_image_size: str = "match",
-                   lora_strength: float = 1.0) -> dict:
+ref_image_size: str = "max",
+                    lora_strength: float = 1.0) -> dict:
     """Generate one take of a scene on the cheap ComfyUI path; upload to S3.
 
     ``gen`` is passed in (rather than created here) so a batch loop reuses one
@@ -66,14 +65,15 @@ def generate_scene(gen: H3Generator, scene_id: str, seed: int,
 @app.local_entrypoint()
 def batch(scene: str = "1", variants: int = 1, mode: str = "turbo",
           steps: int | None = None, seed: int | None = None,
-          ref_image_size: str = "match", lora_strength: float = 1.0,
+          ref_image_size: str = "max", lora_strength: float = 1.0,
           task: str = "r2v", prompt: str | None = None,
           duration: float = 12.25, width: int = 960, height: int = 544):
     """Generate ``variants`` takes of a scene on one warm L40S container.
 
-    steps: omitted -> 4 (turbo) / 20 (full); pass to override.
+    steps: omitted -> 20 (R2V always full) / 4 (turbo) or 20 (full) for T2V.
     seed:  None -> random base; variants use base .. base+N-1 (all distinct).
-    task:  "r2v" (default, uses SCENES refs) or "t2v" (pure text, needs --prompt).
+    task:  "r2v" (default, uses SCENES refs; full-quality only) or "t2v"
+           (pure text, needs --prompt; turbo supported here).
     duration/width/height: override canvas+sine for t2v (e.g. 5s, 864x480 0.4MP).
     Prints a per-variant summary plus the bare S3 keys after everything lands.
     """
@@ -110,7 +110,7 @@ def batch(scene: str = "1", variants: int = 1, mode: str = "turbo",
 def t2v_multi(prompts: str, mode: str = "turbo",
               steps: int | None = None, duration: float = 5.0,
               width: int = 864, height: int = 480,
-              ref_image_size: str = "match", lora_strength: float = 1.0):
+              ref_image_size: str = "max", lora_strength: float = 1.0):
     """Generate one T2V take per prompt line in a SINGLE client invocation.
 
     Unlike ``batch``, this loops all prompts on one warm L40S container so a

@@ -10,12 +10,18 @@ boots ComfyUI on 127.0.0.1 and drives it via the /prompt API.
 Commands
 --------
 - Populate model volume (one-time ~36GB):   modal run comfy_app.py::download_models
-- Generate Scene 1 (turbo 4-step, cheap):   modal run comfy_app.py::main
-- Generate Scene 1 (20-step finals):        modal run comfy_app.py::main -- --mode full
+- Generate Scene 1 (R2V, 20-step finals):   modal run comfy_app.py::main
+- T2V turbo (cheap, fl2va):                 modal run api.py --task t2v --prompt "<text>"
 
-Two sampling modes:
+Sampling modes (T2V only)
+-------------------------
   turbo  - MiniMax-H3-Turbo LoRA + 4-step dual-schedule sampler (cheap/iteration, preview quality)
   full   - stock res_multistep sampler, 20 steps by default (final hero renders; pass --steps to override)
+
+R2V (ref2va) is full-quality only: it has NO turbo path (the turbo LoRA is
+T2V/I2V-only and unsupported for Reference-to-Video), and references default
+to ``ref_image_size="max"`` (2048px short edge) for strong identity. Passing
+``mode=turbo`` on an R2V run warns and coerces to full/20.
 
 Prompt reference tags are ported from the diffusers vocabulary ``<Subject N>``
 to ComfyUI's ``<Picture N>``.
@@ -110,30 +116,27 @@ class _NodeGraph:
 
 
 def build_prompt(*, ref_names: list[str], ported_prompt: str, width: int,
-                 height: int, length: int, ref_image_size: str, mode: str,
-                 steps: int, lora_strength: float, seed: int) -> dict:
-    """Return a ComfyUI /prompt payload (the ``prompt`` key)."""
+                 height: int, length: int, ref_image_size: str,
+                 steps: int, seed: int) -> dict:
+    """Return a ComfyUI /prompt payload (the ``prompt`` key) for R2V.
+
+    R2V is full-quality only: res_multistep sampler, no turbo LoRA (the turbo
+    LoRA is T2V/I2V-only and unsupported for Reference-to-Video).
+    """
     assert 1 <= len(ref_names) <= 9, "H3 Ref2VA supports 1-9 reference images"
     g = _NodeGraph()
 
     load_refs = [g.add("LoadImage", {"image": n})[0] for n in ref_names]
 
     unet, _ = g.add("UNETLoader", {"unet_name": DIFFUSION, "weight_dtype": "default"})
-    model = unet
-    if mode == "turbo":
-        model, _ = g.add("MiniMaxH3TurboLoRA", {
-            "model": [unet, 0], "lora_name": TURBO_LORA, "strength": lora_strength,
-        })
-        sampler, _ = g.add("MiniMaxH3TurboSampler", {})
-    else:
-        sampler, _ = g.add("KSamplerSelect", {"sampler_name": "res_multistep"})
+    sampler, _ = g.add("KSamplerSelect", {"sampler_name": "res_multistep"})
 
     clip, _ = g.add("CLIPLoader", {
         "clip_name": TEXT_ENCODER, "type": "minimax", "device": "default"})
     vae_v, _ = g.add("VAELoader", {"vae_name": VIDEO_VAE})
     vae_a, _ = g.add("VAELoader", {"vae_name": AUDIO_VAE})
 
-    sched_model = model if mode == "turbo" else unet
+    sched_model = unet
     scheduler, _ = g.add("BasicScheduler", {
         "model": [sched_model, 0], "scheduler": "simple", "steps": steps,
         "denoise": 1.0})
@@ -312,23 +315,26 @@ class ComfyRunner:
     def generate(self, *, prompt: str, ref_names: list[str],
                  duration: float, width: int, height: int, mode: str = "turbo",
                  steps: int | None = None, lora_strength: float = 1.0,
-                 seed: int = 0, ref_image_size: str = "match",
+                 seed: int = 0, ref_image_size: str = "max",
                  task: str = "r2v") -> str:
         t = time.time()
-        if steps is None:
-            steps = 4 if mode == "turbo" else 20
         if task == "t2v":
+            if steps is None:
+                steps = 4 if mode == "turbo" else 20
             payload = build_t2v_prompt(
                 prompt=prompt, width=width, height=height,
                 length=frame_length_for(duration), mode=mode, steps=steps,
                 lora_strength=lora_strength, seed=seed)
         else:
+            if mode == "turbo" or (steps is not None and steps < 20):
+                print(f"[warn] R2V has no turbo LoRA ({TURBO_LORA} is T2V-only); "
+                      f"forcing full res_multistep / 20 steps.")
+            mode, steps = "full", 20
             self._stage(ref_names)
             payload = build_prompt(
                 ref_names=ref_names, ported_prompt=port_prompt(prompt),
                 width=width, height=height, length=frame_length_for(duration),
-                ref_image_size=ref_image_size, mode=mode, steps=steps,
-                lora_strength=lora_strength, seed=seed)
+                ref_image_size=ref_image_size, steps=steps, seed=seed)
         t_queue = time.time()
         pid = self._queue(payload)
         t_queued = time.time()
@@ -432,12 +438,16 @@ class H3Generator:
                       duration: float = 12.25, width: int = 864,
                       height: int = 480, mode: str = "turbo",
                       steps: int | None = None, lora_strength: float = 1.0,
-                      seed: int = 0, ref_image_size: str = "match",
+                      seed: int = 0, ref_image_size: str = "max",
                       task: str = "r2v") -> dict:
         if not _models_present():
             raise RuntimeError(
                 "comfyui-models volume is missing model files. Run first:\n"
                 "  modal run comfy_app.py::download_models")
+        if task != "t2v" and (mode == "turbo" or (steps is not None and steps < 20)):
+            print(f"[warn] R2V has no turbo LoRA ({TURBO_LORA} is T2V-only); "
+                  f"forcing full res_multistep / 20 steps.")
+            mode, steps = "full", 20
         t_gen = time.time()
         mp4 = self.runner.generate(
             prompt=prompt, ref_names=ref_names,
@@ -464,16 +474,21 @@ REFS = [
 
 
 @app.local_entrypoint()
-def main(turbo: bool = True, steps: int | None = None, duration: float = 12.25,
+def main(steps: int | None = None, duration: float = 12.25,
          width: int = 864, height: int = 480, seed: int = 0,
-         ref_image_size: str = "match"):
+         ref_image_size: str = "max"):
+    """R2V Scene 1: full-quality only (res_multistep, max refs, 20 steps).
+
+    R2V has no turbo path (the turbo LoRA is T2V-only); pass --steps to
+    override. For cheap T2V turbo, use api.py --task t2v.
+    """
     gen = H3Generator()
     with open("scene_01_dealership_minimax_ref.txt", encoding="utf-8") as f:
         prompt = f.read()
     result = gen.generate_clip.remote(
         prompt=prompt,
         ref_names=REFS, duration=duration, width=width, height=height,
-        mode="turbo" if turbo else "full", steps=steps, seed=seed,
+        mode="full", steps=steps, seed=seed,
         ref_image_size=ref_image_size)
     print(result)
 

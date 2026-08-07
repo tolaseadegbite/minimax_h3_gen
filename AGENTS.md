@@ -9,10 +9,10 @@ runs inside Modal containers.
 - **Diffusers ground truth (H200, ~$3.6/clip):** `modal run main.py`
 - **Cheap ComfyUI path (L40S):**
   - Bootstrap model volume (one-time, ~36GB): `modal run comfy_app.py::download_models`
-  - Generate Scene 1 turbo/4-step:        `modal run api.py --scene 1` (or `modal run api.py --scene 1 --mode full`)
+  - Generate Scene 1 (R2V, full/20, max refs):  `modal run api.py::batch --scene 1` (or `comfy_app.py::main`)
   - T2V (no refs, fl2va), 5s/864×480:     `modal run api.py::batch --task t2v --prompt "<text>"`
   - Multi-prompt T2V warm batch:          `modal run api.py::t2v_multi --prompts $'a\nb'`
-  - Batch variant takes on one warm container: `modal run api.py --scene 1 --variants 4`
+  - Batch R2V variant takes on one warm container: `modal run api.py::batch --scene 1 --variants 4`
   - **Full command/param reference: see `COMMANDS.md`.**
 - Local checks only (`.venv` has no torch/diffusers/GPU; Modal runs the rest):
   - `python -m py_compile comfy_gen.py comfy_app.py api.py`
@@ -33,9 +33,14 @@ runs inside Modal containers.
 - **Tag vocabulary differs from diffusers:** Comfy R2V node uses `<Picture N>` (1-based), NOT
   `<Subject N>`. `port_prompt()` (in `comfy_app.py`) strips the header at `subject_definitions:` and
   remaps tags. Keep ref order in lockstep — never reorder without renumbering `<Picture N>`.
-- **Two modes** (default = turbo): `turbo` (4-step MiniMax-H3-Turbo LoRA sampler; cheap, preview
-  quality — plastic-skin/over-sharp artifacts) and `full`/20-step res_multistep (finals, `--steps` overrides). Turbo
-  LoRA is preview/prototype: pin `COMFYUI_COMMIT` + `TURBO_NODES_COMMIT` in `comfy_app.py`.
+- **R2V is full-quality only — no turbo.** The turbo LoRA is T2V/I2V-only and unsupported for
+  Reference-to-Video, so `build_prompt` (R2V) always uses `res_multistep`/20 steps; passing `--mode
+  turbo`/`--steps <20` on an R2V run warns and coerces to full/20. Turbo (4-step LoRA sampler,
+  cheap/preview) is documented for **T2V only**. Pin `COMFYUI_COMMIT` + `TURBO_NODES_COMMIT` in
+  `comfy_app.py`.
+- **R2V refs:** default `ref_image_size="max"` (2048px short edge, strong identity; refs are
+  pre-scaled to that in `scene1/`). `match` (scale refs to canvas; cheap, weak identity) is kept only
+  as an explicit scout flag — `max` is the R2V default.
 - **SageAttention is always-on** (`--use-sage-attention`; image adds `sageattention` + `triton`). Confirmed
   active on GPU via `comfy_app.py::check_sage`. Numerically different output than pytorch attention at same
   seed (expected). Measured ~2% at 5s/864×480 (135 vs 138s); real win at high-res/long-frame only.
@@ -43,20 +48,21 @@ runs inside Modal containers.
   `<Picture>` tags). Prompt is a T2VA-style body (`integrated_multimodal_description:` +
   `overall_soundscape:` + `non_diegetic_music:`). `t2v_multi` loops prompts on one warm container.
 - **Frame snap:** `frame_length_for()` snaps (`%17==5`); 12.25s→294, 5s→124, 15s→362 (5–15s validated).
-  864×480 cheap canvas (default for all tasks); `ref_image_size="match"` (cheap) vs `"max"` (2048px short edge, slower/stronger identity).
-- **Verified on Modal (L40S):** turbo 4-step ref2va burns successfully and uploads a valid MP4
-  (h264 @24fps + native AAC audio, 12.25s, ~3 MB). Sampling took ~3.9 min once scheduled (queue
-  wait added ~4.5 min that day). So **turbo+ref2va is NOT a risk anymore**; use it for iteration,
-  `full` for finals. First-model-load on a fresh worker ~1–2 min.
+  864×480 cheap canvas (default for all tasks). R2V refs default to `ref_image_size="max"` (2048px
+  short edge); `match` is scout-only.
+- **Verified on Modal (L40S):** R2V full/20 and T2V turbo burns both succeed and upload valid MP4s
+  (h264 @24fps + native AAC audio). T2V turbo 4-step sampling took ~0.5–1.5 min; R2V full ~8–10 min.
+  First-model-load on a fresh worker ~1–2 min.
 
 ## Secrets (scoped — keep separate)
 - `huggingface-secret` → on the **image build** only (download step), provides `HF_TOKEN`.
 - `video-gen-secret` → on the **class** only, provides `AWS_REGION` + `S3_BUCKET_NAME` for upload.
 
 ## Non-obvious architecture / gotchas
-- **Ref2VA only.** The FL2VA/T2VA task family is not used. `transformer_ref/` is the Ref2VA
-  transformer; do not reintroduce FL2VA `transformer/` (would re-claim another ~66GB). The model is
-  shared `text_encoder` (Qwen3VL-32B) + VAEs plus one task-specific transformer.
+- **R2V is the primary path; T2V uses the separate fl2va transformer.** `transformer_ref/` is the R2V
+  transformer (full-quality only). T2V (`task="t2v"`) loads the fl2va `transformer/`; do not load both
+  in one worker (each claims ~66GB). Shared `text_encoder` (Qwen3VL-32B) + VAEs plus one
+  task-specific transformer per task.
 - **Reference order is semantic.** `ref_image_paths` order maps positionally to `<Subject N>` in the
   prompt. Do not reorder an existing list without renumbering every `<Subject N>` reference.
 - **Never feed the prompt-file header to the model.** `scene_01_*.txt` has a title/Source/NOTE
@@ -79,7 +85,7 @@ runs inside Modal containers.
 - `main.py` — diffusers pipeline (download/load/generate/upload) + Scene 1 entrypoint (H200 ground truth).
 - `comfy_app.py` — cheap ComfyUI-on-Modal app: image build, model-volume bootstrap, `H3Generator` class, stdlib graph builder + `ComfyRunner`.
 - `comfy_gen.py` — standalone copy of the merged generation logic (port/frame-snap/graph/runner) kept for local smoke tests; runtime uses the inlined copy. Not a dependency.
-- `api.py` — scriptable batch entrypoint (`SCENES` manifest, `generate_scene`; `--variants/--mode/--steps/--seed`, COMMANDS.md).
+- `api.py` — scriptable batch entrypoint (`SCENES` manifest, `generate_scene`; `--variants/--steps/--seed`, COMMANDS.md).
 - `scene_01_dealership_minimax_ref.txt` — Scene 1 Ref2VA prompt (7 `<Subject N>` refs).
 - `car_commercial_sample_breakdown.txt` — source multi-scene beat breakdown (Higgsfield/Seedance).
 - `VIDEO_PROMPT_WRITING_GUIDE_*_en.md` — H3 prompt-format specs (source of truth for prompt shape).
