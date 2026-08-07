@@ -429,8 +429,8 @@ class H3Generator:
 
     @modal.method()
     def generate_clip(self, prompt: str, ref_names: list[str],
-                      duration: float = 12.25, width: int = 960,
-                      height: int = 544, mode: str = "turbo",
+                      duration: float = 12.25, width: int = 864,
+                      height: int = 480, mode: str = "turbo",
                       steps: int | None = None, lora_strength: float = 1.0,
                       seed: int = 0, ref_image_size: str = "match",
                       task: str = "r2v") -> dict:
@@ -465,7 +465,7 @@ REFS = [
 
 @app.local_entrypoint()
 def main(turbo: bool = True, steps: int | None = None, duration: float = 12.25,
-         width: int = 960, height: int = 544, seed: int = 0,
+         width: int = 864, height: int = 480, seed: int = 0,
          ref_image_size: str = "match"):
     gen = H3Generator()
     with open("scene_01_dealership_minimax_ref.txt", encoding="utf-8") as f:

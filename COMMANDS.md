@@ -81,7 +81,7 @@ modal run main.py
 | `--task` | str | `"r2v"` | `r2v` (uses SCENES refs) or `t2v` (needs `--prompt`; fl2va model). |
 | `--prompt` | str | `None` | T2V prompt body (T2VA format). Required when `--task t2v`. |
 | `--duration` | float | `12.25` | Seconds; frame length snaps to `%17==5`. T2V: pass `5`. |
-| `--width`/`--height` | int | `960`/`544` | Must be multiples of 32. T2V with no refs: `864`×`480` (0.4MP). |
+| `--width`/`--height` | int | `864`/`480` | Must be multiples of 32. Default canvas is 864×480 (0.4MP); 768×1344 = MAX_PIXELS. |
 | `--ref-image-size` | str | `"match"` | R2V: `match` (scale refs to canvas, cheaper) or `max` (2048px short edge, stronger identity). |
 | `--lora-strength` | float | `1.0` | Turbo LoRA strength (turbo mode only). |
 
@@ -91,26 +91,26 @@ modal run main.py
 | `--turbo` | `true` | `false` -> full/20-step. |
 | `--steps` | omit | Step override (4 turbo / 20 full when omitted). |
 | `--duration` | `12.25` | Seconds; frame length snaps to `%17==5` (5–15s valid). |
-| `--width`,`--height` | `960`,`544` | Must be multiples of 32 (`768x1344` = MAX_PIXELS). |
+| `--width`,`--height` | `864`,`480` | Must be multiples of 32 (`768x1344` = MAX_PIXELS). |
 | `--seed` | `0` | Fixed seed. |
 | `--ref-image-size` | `"match"` | See above. |
 
 ## Runtime knobs (comfy_app.py constants)
 - `COMFYUI_COMMIT`, `TURBO_NODES_COMMIT` — pinned SHAs; must be 40 chars.
 - `REFS` — Scene-1 reference order; maps 1:1 to `<Picture 1..7>`. Never reorder.
-- Canvas: 960×544 (cheap) vs 768×1344 (MAX_PIXELS, ~2× cost). T2V default 864×480.
+- Canvas: 864×480 (default; cheap) vs 768×1344 (MAX_PIXELS, ~2× cost).
 - Frames: `17*n+5` grid at 24fps; 12.25s -> 294; 5s -> 124.
 - SageAttention: always-on `--use-sage-attention`; image adds `sageattention` + `triton`.
 
 ## Cost / time (per your Modal pricing, L40S = $0.000542/s)
 | Use | Est. time | Est. cost |
 |-----|-----------|-----------|
-| Turbo 4-step (960×544, 12.25s) | ~3.9 min gen (+ ~1 min boot, excl. queue) | ~$0.16 |
+| Turbo 4-step (864×480, 12.25s) | ~3.9 min gen (+ ~1 min boot, excl. queue) | ~$0.16 |
 | Turbo 8-step | ~6.3–7.5 min | ~$0.22–0.26 |
 | Turbo 4-step T2V (5s, 864×480) | ~0.5–1.5 min gen | ~$0.03–0.06 |
 | Full 20-step T2V (5s, 864×480) | ~2.3 min gen (measured 135–138s) | ~$0.08 |
-| Full 20-step (960×544, 12.25s) | ~8 min gen | ~$0.26–0.30 |
-| Full 50-step (960×544, 12.25s) | ~20–35 min | ~$1.35–1.50 |
+| Full 20-step (864×480, 12.25s) | ~8 min gen | ~$0.26–0.30 |
+| Full 50-step (864×480, 12.25s) | ~20–35 min | ~$1.35–1.50 |
 | Variant batch (N turbo, warm container) | 1 boot + N×~2.9 min | ~$0.16 × N |
 
 Tips: batches reuse one warm container (1 boot, no reload). Queue wait is not

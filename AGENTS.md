@@ -43,7 +43,7 @@ runs inside Modal containers.
   `<Picture>` tags). Prompt is a T2VA-style body (`integrated_multimodal_description:` +
   `overall_soundscape:` + `non_diegetic_music:`). `t2v_multi` loops prompts on one warm container.
 - **Frame snap:** `frame_length_for()` snaps (`%17==5`); 12.25s→294, 5s→124, 15s→362 (5–15s validated).
-  960×544 cheap canvas; `ref_image_size="match"` (cheap) vs `"max"` (2048px short edge, slower/stronger identity).
+  864×480 cheap canvas (default for all tasks); `ref_image_size="match"` (cheap) vs `"max"` (2048px short edge, slower/stronger identity).
 - **Verified on Modal (L40S):** turbo 4-step ref2va burns successfully and uploads a valid MP4
   (h264 @24fps + native AAC audio, 12.25s, ~3 MB). Sampling took ~3.9 min once scheduled (queue
   wait added ~4.5 min that day). So **turbo+ref2va is NOT a risk anymore**; use it for iteration,

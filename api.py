@@ -34,8 +34,8 @@ SCENES: dict[str, dict] = {
         "prompt_file": PROMPT_FILE,
         "ref_names": REFS,  # order maps 1:1 to <Picture 1..7>
         "duration": 12.25,
-        "width": 960,
-        "height": 544,
+        "width": 864,
+        "height": 480,
     },
 }
 
