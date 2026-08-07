@@ -1,0 +1,39 @@
+Full-Reference (Ref2VA) Rewrite — Scene 1: The Dealership
+Source: car_commercial_sample_breakdown.txt (Higgsfield/Seedance breakdown), Scene 1
+Mode: MiniMax H3 full-reference rewrite per VIDEO_PROMPT_WRITING_GUIDE_ref_en.md
+
+NOTE: Source beat is 12s / seven shots / six cuts. Our generate() default is
+num_frames=124 (~5.2s @ 24fps). This file is a format spec; for execution, either
+raise num_frames or split into multiple H3 clips with fewer cuts per clip.
+
+subject_definitions:
+<Subject 1> is the disguised young male hero, age early 20s, light tan skin, dark curly hair under a brown baseball cap pulled low, rectangular orange-tinted glasses, thick fake-looking dark mustache, small silver hoop earrings, brown suede zip-up jacket over a cream crew-neck t-shirt, blue straight-fit jeans, white low-top sneakers. Appearance reference.
+<Subject 2> is the dealership consultant, a woman in her early 30s with a short neat copper-blond bob, fair skin, composed professional face, light blue button-up shirt under a fitted dark navy pantsuit, black heels. Appearance reference.
+<Subject 3> is the modern dark red sports sedan with a sleek fastback silhouette, black mesh rims, tinted windows, and a silver four-pointed star emblem. Appearance reference.
+<Subject 4> is the premium car key fob with a glossy dark red body, black leather center strip, silver four-pointed star emblem, and "GENOVA" lettering. Prop reference.
+<Subject 5> is the framed championship photo on the showroom wall — a race driver in a black-white-red racing suit joyfully lifting a golden trophy, curly dark hair, beaming open-mouthed celebration, mounted in an elegant glass frame. The photo's subject is the same face as <Subject 1> without the mustache and cap. Prop reference.
+<Subject 6> is the modern car dealership showroom — vast hall, sweeping curved floor-to-ceiling glass facade, warm wooden ceiling panels meeting a high dark ceiling, angular wood-clad walls, polished floor with hard sun shadows through the glass grid, a couple of display cars, white reception counter, sunny parking lot visible outside. Location and mood reference.
+<Subject 7> is the car brand emblem — a brushed-silver four-pointed star badge used on the hood and trunk of <Subject 3> and on the center of <Subject 4>. Emblem design reference.
+summary:
+[reference generation] The target video is a seven-shot showroom sequence in which <Subject 1> inspects <Subject 3> and receives <Subject 4> from <Subject 2>, then leaves a touch hurriedly. <Subject 2> notices <Subject 5> on the wall and realizes who the man was as <Subject 3> tears past the window. The video is set entirely in <Subject 6>.
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 4]): fully_preserved - the disguised hero's face, cap, amber glasses, mustache, suede jacket, jeans, and sneakers are retained.
+<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 5], [Shot 7]): fully_preserved - the consultant's copper-blond bob, fair skin, navy pantsuit, and black heels are retained.
+<Subject 3> (appears in [Shot 1], [Shot 2], [Shot 7]): fully_preserved - the red sedan's fastback body, mesh rims, tinted windows, and star emblem are retained.
+<Subject 4> (appears in [Shot 2], [Shot 3]): fully_preserved - the GENOVA key fob's dark red body, leather strip, star emblem, and lettering are retained.
+<Subject 5> (appears in [Shot 6]): fully_preserved - the framed champion photo's composition and glass frame are retained.
+<Subject 6> (appears throughout): fully_preserved - the showroom's glass facade, wood-clad walls, polished floor, and sun shadows are retained.
+<Subject 7> (appears in [Shot 1], [Shot 3]): fully_preserved - the four-pointed star emblem is retained on the hood of <Subject 3> and the center of <Subject 4>.
+detailed_description:
+The target video is a cinematic photoreal 35mm commercial in a Kodak 500T film look, organic color, soft contrast, with hard warm shafts of sunlight streaking across the vast showroom throughout.
+[Shot 1] A medium shot inside <Subject 6> shows <Subject 3> front-on at a 3/4 angle, its front and <Subject 7> star emblem catching a hard warm beam of light; to the right, <Subject 1> (S1) strolls slowly unhurried, hands clasped behind his back, appraising the car with a connoisseur's slow once-over and a small nod. Deeper in the hall a couple of other display cars stand across the floor, with two or three customers in natural lively background action — a couple chatting by a display car, a man wandering past on a phone, someone browsing a brochure. The camera pushes in toward <Subject 1> (S1) to a close-up; behind his back, <Subject 2> hurries toward him across the floor. He hears her steps, gives a quick sideways flick of the eyes, instantly straightens his mustache and tugs his cap lower, clears his throat, and turns around.
+[Shot 2] At 00:04.500, a wide side shot toward the glass windows and the car — <Subject 1> on the left, <Subject 2> on the right, another display car deeper in the hall. <Subject 2> (S2) walks up, hands him <Subject 4>, polite with a touch of awkwardness, a small courteous nod, and says, <d>[English] Mr. Magic, here is your key.</d>
+[Shot 3] At 00:06.000, a tight close-up of <Subject 4> passing from her hand to his — the <Subject 7> silver star emblem and "GENOVA" lettering clearly visible in a warm shaft of sunlight.
+[Shot 4] At 00:07.000, <Subject 1> (S1) gives a brief courteous nod and says, <d>[English] Thanks.</d> He walks off toward the exit at a lightly hurried, easy pace — not running, just a touch quicker than casual, relaxed purposeful steps, no lingering.
+[Shot 5] At 00:08.500, a close-up of <Subject 2> (S2) walking away on her business; mid-step she notices something on the wall off-screen, slows, her gaze catching, a small puzzled frown, head tilting slightly; we see only her, not the wall.
+[Shot 6] At 00:10.000, a frontal close-up of <Subject 5> on the wall — the race driver lifting the golden trophy in an elegant glass frame, a hard shaft of sunlight glancing off the glass, more framed photos visible left and right — the same face as the man who just left, no mustache, no cap.
+[Shot 7] At 00:11.000, a frontal close-up of <Subject 2> (S2) framed toward the window: the realization lands with a visible jolt — eyes widen, brows lift, lips part, a small caught breath and stunned blink — then softens into a faint knowing smile, just the corners of the mouth lifting a millimeter. At that instant, behind her through the window, <Subject 3> tears past in a blur with a sharp engine roar; she whips around toward the sound.
+overall_soundscape:
+Showroom ambience with lively background chatter continues throughout: a muffled phone conversation, quick heels on tile approaching, a dry throat-clear, the metallic clink of <Subject 4> changing hands, easy footsteps leaving, and at the end a sudden engine roar with the whoosh of the passing car and a faint glass rattle.
+non_diegetic_music:
+N/A

@@ -1,0 +1,75 @@
+Pricing as magical as our product
+With Modal, you always pay for what you use and nothing more. You never pay for idle resources — just actual compute time, by the CPU cycle.
+
+Get Started
+
+Contact Us
+Resource costs
+
+Per hour
+Per second
+Per hour
+Per second
+GPU Tasks
+
+Nvidia B300
+
+$0.001972 / sec
+
+Nvidia B200
+
+$0.001736 / sec
+
+Nvidia H200
+
+$0.001261 / sec
+
+Nvidia H100
+
+$0.001097 / sec
+
+Nvidia RTX PRO 6000
+
+$0.000842 / sec
+
+Nvidia A100, 80 GB
+
+$0.000694 / sec
+
+Nvidia A100, 40 GB
+
+$0.000583 / sec
+
+Nvidia L40S
+
+$0.000542 / sec
+
+Nvidia A10
+
+$0.000306 / sec
+
+Nvidia L4
+
+$0.000222 / sec
+
+Nvidia T4
+
+$0.000164 / sec
+
+CPU
+
+Physical core (2 vCPU equivalent)
+
+$0.0000131 / core / sec
+
+*minimum of 0.125 cores per container
+
+Memory
+
+$0.00000222 / GiB / sec
+
+Volumes
+
+$0.09 / GiB / mo
+
+*includes 1 TiB / mo free

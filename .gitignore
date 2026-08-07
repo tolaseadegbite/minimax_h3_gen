@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+videos/
+*.mp4
+
+*.log
+comfy.log
+
+all_assets_here_car_commercial/
+
+.env

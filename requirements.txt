@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+accelerate
+torchao
+safetensors
+huggingface_hub
+einops
+imageio[ffmpeg]
+boto3
+requests
+git+https://github.com/huggingface/diffusers.git@refs/pull/14355/head
