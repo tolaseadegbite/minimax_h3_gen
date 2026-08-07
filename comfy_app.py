@@ -533,3 +533,28 @@ def check_sage():
     else:
         lines.append(f"(no comfy.log at {log})")
     return "\n".join(lines) or "(no log lines)"
+
+
+@app.function(
+    image=image,
+    gpu="L40S",
+    timeout=600,
+)
+def probe_env():
+    """Read-only toolchain probe: torch/CUDA/sage versions on the L40S image."""
+    import torch
+    out = [
+        f"torch={torch.__version__}",
+        f"cuda_build={torch.version.cuda}",
+        f"cudnn={torch.backends.cudnn.version()}",
+        f"device={torch.cuda.get_device_name(0)}",
+        f"capability={'.'.join(map(str, torch.cuda.get_device_capability(0)))}",
+    ]
+    try:
+        import sageattention
+        out.append(f"sageattention={getattr(sageattention, '__version__', '?')}")
+    except Exception as e:
+        out.append(f"sageattention=NOT_IMPORTABLE ({type(e).__name__})")
+    import triton
+    out.append(f"triton={triton.__version__}")
+    return "\n".join(out)
