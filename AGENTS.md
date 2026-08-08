@@ -12,6 +12,8 @@ runs inside Modal containers.
   - Generate Scene 1 (R2V, full/20, max refs):  `modal run api.py::batch --scene 1` (or `comfy_app.py::main`)
   - T2V (no refs, fl2va), 5s/864×480:     `modal run api.py::batch --task t2v --prompt "<text>"`
   - Multi-prompt T2V warm batch:          `modal run api.py::t2v_multi --prompts $'a\nb'`
+  - Multi-file T2V (verbatim, one prompt/file): `modal run api.py::t2v_files --paths "Vignettes/sweeper.txt,Vignettes/clock.txt" --duration 10`
+  - `Vignettes/` — multi-paragraph T2V prompt files (whole file = one prompt); feed them via `t2v_files`, NOT `t2v_multi` (which is one prompt per line and aborts on split section headers).
   - Batch R2V variant takes on one warm container: `modal run api.py::batch --scene 1 --variants 4`
   - R2V with external prompt + refs: `modal run api.py::batch --prompt-file "Drunken Master/alley.txt" --ref-names "drunken_master.png,alleyway_henchman.png" --ref-subdir drunken_master --duration 10`
   - Multi-scene R2V on ONE warm container: `modal run api.py::r2v_multi --scenes "Drunken Master/scenes.json"` (JSON manifest; per-scene `prompt_file`/`ref_names[]`/`duration`/`width`/`height`/`ref_image_size`/`ref_subdir`)
@@ -88,11 +90,12 @@ runs inside Modal containers.
 - `comfy_app.py` — cheap ComfyUI-on-Modal app: image build, model-volume bootstrap, `H3Generator` class, stdlib graph builder + `ComfyRunner`.
 - `comfy_gen.py` — standalone copy of the merged generation logic (port/frame-snap/graph/runner) kept for local smoke tests; runtime uses the inlined copy. Not a dependency.
 - `api.py` — scriptable batch entrypoint (`SCENES` manifest, `generate_scene`, `batch`
-  `--prompt-file/--ref-names/--ref-subdir`, multi-scene `r2v_multi --scenes scenes.json`;
-  `--variants/--steps/--seed`, COMMANDS.md).
+  `--prompt-file/--ref-names/--ref-subdir`, multi-scene `r2v_multi --scenes scenes.json`,
+  T2V `t2v_multi`/`t2v_files`; `--variants/--steps/--seed`, COMMANDS.md).
 - `Drunken Master/` — external Ref2VA project: `alley.txt` + `kitchen.txt` (verbatim
   prompts, start at `subject_definitions:`), `Assets/` (ref PNGs staged to volume
   subdir `drunken_master`), `scenes.json` manifest for `api.py::r2v_multi`.
+- `Vignettes/` — T2V multi-paragraph prompt files (`sweeper.txt`, `clock.txt`), whole-file prompts for `api.py::t2v_files`.
 - `scene_01_dealership_minimax_ref.txt` — Scene 1 Ref2VA prompt (7 `<Subject N>` refs).
 - `car_commercial_sample_breakdown.txt` — source multi-scene beat breakdown (Higgsfield/Seedance).
 - `VIDEO_PROMPT_WRITING_GUIDE_*_en.md` — H3 prompt-format specs (source of truth for prompt shape).

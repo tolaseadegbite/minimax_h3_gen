@@ -162,13 +162,32 @@ def t2v_multi(prompts: str, mode: str = "turbo",
     """Generate one T2V take per prompt line in a SINGLE client invocation.
 
     Unlike ``batch``, this loops all prompts on one warm L40S container so a
-    back-to-back list shares the model and skips re-boot after the first
-    prompt. Pass prompts as newline-separated lines (e.g. ``--prompts $'...\n...'``).
+    back-to-back list of prompts shares the model and skips re-boot after the
+    first. Pass prompts as newline-separated lines (e.g. ``--prompts $'...\n...'``).
     Each take uses a fresh random seed.
+
+    Guard: a well-formed prompt is a single logical line. If ``--prompts``
+    contains colon-headed section markers (``subject_definitions:``,
+    ``integrated_multimodal_description:``, ``[Shot N]``) on their own lines,
+    the caller almost certainly passed a multi-paragraph file through ``$()``;
+    abort instead of firing jagged fragment clips.
     """
-    prompts_list = [p.strip() for p in prompts.splitlines() if p.strip()]
-    if not prompts_list:
+    lines = [p.strip() for p in prompts.splitlines()]
+    non_empty = [p for p in lines if p]
+    if not non_empty:
         raise ValueError("t2v_multi requires at least one non-empty --prompts line")
+    frag_markers = ("subject_definitions:", "integrated_multimodal_description:",
+                    "retention_analysis:", "detailed_description:",
+                    "overall_soundscape:", "non_diegetic_music:", "[Shot")
+    fragments = [p for p in non_empty if p.startswith(frag_markers)]
+    if fragments:
+        raise ValueError(
+            "t2v_multi --prompts must be one prompt per line; got section "
+            f"headers split across {len(fragments)} line(s) "
+            "(looks like a multi-paragraph file was collapsed). Use "
+            "api.py::t2v_files with --paths instead:\n"
+            "  modal run api.py::t2v_files --paths a.txt,b.txt")
+    prompts_list = non_empty
     gen = H3Generator()
     results = []
     for p in prompts_list:
@@ -181,6 +200,51 @@ def t2v_multi(prompts: str, mode: str = "turbo",
     eff_steps = steps if steps is not None else (4 if mode == "turbo" else 20)
     print(f"\nT2V multi complete ({len(results)} take(s), mode={mode}, "
           f"steps={eff_steps})")
+    for i, r in enumerate(results):
+        print(f"  #{i}  seed={r['seed']:<11} {r['s3_key']}")
+    print("\nS3 keys:")
+    for r in results:
+        print(f"  {r['s3_key']}")
+
+
+@app.local_entrypoint()
+def t2v_files(paths: str, mode: str = "turbo", steps: int | None = None,
+              duration: float = 10.0, width: int = 864, height: int = 480,
+              ref_image_size: str = "max", lora_strength: float = 1.0):
+    """One T2V take per prompt FILE, read verbatim, on ONE warm container.
+
+    Safest multi-prompt path: each file is read whole (paragraphs and
+    ``[Shot N]`` markers preserved) and passed as a single ``generate_clip``
+    prompt — no shell ``$()`` line-splitting, no fragment clips.
+
+    ``paths`` is a comma-separated list of prompt files, e.g.::
+
+        modal run api.py::t2v_files --paths "Vignettes/sweeper.txt,Vignettes/clock.txt" \\
+            --duration 10 --width 864 --height 480 --mode turbo
+
+    Duration defaults to 10s (frame length snaps to 17n+5 -> 243 frames).
+    Each take uses a fresh random seed.
+    """
+    path_list = [p.strip() for p in paths.split(",") if p.strip()]
+    if not path_list:
+        raise ValueError("t2v_files requires at least one --paths file")
+    prompts = []
+    for path in path_list:
+        with open(path, encoding="utf-8") as f:
+            prompts.append(f.read())
+
+    gen = H3Generator()
+    results = []
+    for p in prompts:
+        seed = random_seed()
+        results.append(gen.generate_clip.remote(
+            prompt=p, ref_names=None, mode=mode, steps=steps, seed=seed,
+            ref_image_size=ref_image_size, lora_strength=lora_strength,
+            task="t2v", duration=duration, width=width, height=height))
+
+    eff_steps = steps if steps is not None else (4 if mode == "turbo" else 20)
+    print(f"\nT2V files complete ({len(results)} take(s), mode={mode}, "
+          f"steps={eff_steps}, duration={duration}, {width}x{height})")
     for i, r in enumerate(results):
         print(f"  #{i}  seed={r['seed']:<11} {r['s3_key']}")
     print("\nS3 keys:")

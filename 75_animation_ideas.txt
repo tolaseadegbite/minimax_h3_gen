@@ -1,0 +1,835 @@
+### 1. Single-Stroke Ink Animation / Bird to Windmill
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 animation composed for 864×480, created from thin black ink lines on an off-white paper field with restless line boil, sparse staging, faint frame flicker, and early straight-ahead animation. An unseen pen draws a small bird one continuous stroke at a time. The bird flaps through uneven but readable arcs, pecks the ground, and pulls the horizon line upward. Its beak stretches into a windmill blade, its body becomes the mill house, and the remaining lines curl into clouds. Every transformation passes through visible intermediate shapes rather than dissolving.
+overall_soundscape: Pen nibs scratch across paper, wings produce delicate paper-like flutters, and the completed windmill creaks softly beneath a faint mechanical projector rattle.
+non_diegetic_music: A lively solo upright-piano accompaniment uses short ascending runs and playful rhythmic accents, ending with one bright chord.
+ 
+---
+ 
+### 2. Silhouette Cutout / Paper Puppet Traveler
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 animation composed for 864×480, using ornate black silhouette cutouts, articulated paper joints, decorative profiles, theatrical staging, and layered glass-plane parallax. A long-legged traveler crosses a moonlit bridge carrying a lantern. His shoulders, elbows, knees, and ankles rotate through clearly stepped cut-paper poses. A patterned shadow-bird rises from beneath the bridge, circles him in profile, and lands on the lantern. The traveler anticipates with a backward lean, bows carefully, and continues walking while foreground reeds and distant hills slide at different speeds.
+overall_soundscape: Paper joints click softly, the bridge gives a dry wooden creak, the lantern handle taps, and distant nighttime wind moves through reeds.
+non_diegetic_music: Sparse chamber accompaniment with plucked harp, bowed cello, and small hand drum follows the deliberate puppet-like movement.
+ 
+---
+ 
+### 3. Elastic Rubber-Hose Ink Street Sweeper
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 monochrome animation composed for 864×480, using elastic rubber-hose limbs, rounded black-and-white forms, looping rhythmic bounce, high-contrast ink shapes, gentle gate weave, and synchronized musical action. An original bean-shaped street sweeper marches beside a trash bin whose lid behaves like a cymbal. The sweeper's knees pump in repeating arcs, both arms stretch around the bin, and the broom bends deeply before snapping straight. On the final beat, the bin compresses through exaggerated squash, launches the rubbish upward, and catches every piece neatly beneath its lid.
+overall_soundscape: The broom swishes rhythmically, the metal lid clangs, loose cans rattle, and each elastic stretch produces a soft whistle.
+non_diegetic_music: Bouncy mono jazz with honky-tonk piano, muted trumpet, tuba, and woodblock accents synchronizes tightly with each pose and impact.
+ 
+---
+ 
+### 4. Animator's Pencil Test — Acrobat Standing Leap
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 animator's pencil test composed for 864×480, showing rough graphite construction lines, blue underdrawing, red correction marks, registration holes, exposed timing notes, and fluctuating line density. An original young acrobat prepares for a standing leap. She lowers through a strong anticipation pose, compresses her knees, drives upward through a clean line of action, and rotates once. Closely spaced drawings ease her into the apex; wider spacing accelerates the descent. Her arms follow curved arcs, loose hair overlaps one beat late, and she lands with visible squash before settling into a balanced key pose.
+overall_soundscape: Graphite scratches, paper sheets flip rapidly, shoes make a soft landing thump, and fabric moves faintly during the turn.
+non_diegetic_music: A metronomic piano pattern marks the preparation, leap, apex, and landing without obscuring the animation timing.
+ 
+---
+ 
+### 5. Classical Cel Animation — Apprentice Tailor
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 classical cel animation composed for 864×480, with confident ink contours, opaque painted color, softly painted storybook backgrounds, multiplane depth, warm theatrical light, and smooth animation on ones. An original apprentice tailor chases a runaway spool through a cluttered workshop. He anticipates by reaching backward, lunges forward, and narrowly misses it. His body stretches during the dive, compresses against a cushion, and rebounds while his sleeves and hair follow through. Foreground scissors, the character, and distant shelves move on separate depth planes as the spool rolls into his open hand.
+overall_soundscape: Thread unwinds, the wooden spool rolls, cloth rustles, scissors lightly rattle, and the cushion releases a soft puff at impact.
+non_diegetic_music: Warm orchestral scoring with clarinet, pizzicato strings, bassoon, and harp follows the chase through expressive rises and a gentle comic cadence.
+ 
+---
+ 
+### 6. Handcrafted Puppet Animation — Station Porter
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 puppet animation composed for 864×480, using a handcrafted miniature railway platform, carved wooden figures, fabric clothing, replacement facial pieces, stepped pose increments, soft practical shadows, and subtle registration jitter. A small station porter struggles to lift an oversized suitcase. He tests its weight, braces his feet, bends through a clear anticipation pose, and heaves. The suitcase rises only one inch before pulling him forward. His replacement mouth changes from determination to alarm as he tumbles onto it, causing the suitcase to spring open and release a flock of folded paper butterflies.
+overall_soundscape: Wooden joints click, fabric brushes, the suitcase handle creaks, the porter lands with a hollow knock, and paper wings flutter around the miniature set.
+non_diegetic_music: Light bass clarinet, plucked strings, and brushed snare follow the stepped physical comedy with slightly uneven phrasing.
+ 
+---
+ 
+### 7. Limited 2D Graphic Animation — Office Worker
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 limited animation composed for 864×480, using asymmetric layouts, simplified silhouettes, bold restrained color blocks, sparse linework, crisp poster-like staging, and economical held poses. An angular office worker stands beside an enormous red filing cabinet against a cream-and-teal background. His body remains in a held pose while only his eyes follow a drawer sliding open by itself. He rotates one wrist through two clean key drawings, pushes the drawer closed, and resumes the original pose. Every other drawer then opens in a precise graphic rhythm as his pupils shift left and right without moving his head.
+overall_soundscape: Each drawer produces a clean wooden slide and dry stop, accompanied by a quiet office ventilation tone and one restrained paper rustle.
+non_diegetic_music: Cool-jazz vibraphone, upright bass, brushed drums, and muted trumpet perform a concise syncopated phrase matching the drawer rhythm.
+ 
+---
+ 
+### 8. Xerographic Cel Animation — Bicycle Courier
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 xerographic cel animation composed for 864×480, with rough transferred pencil contours, visible construction energy, dry-brush speed marks, flat painted color, irregular line weight, and sharp smear drawings. An original bicycle courier races downhill while loose envelopes escape from the rear basket. The rider pedals through strong repeating cycles as the bicycle frame flexes slightly under weight. A sudden pothole creates one compressed impact pose, followed by a long stretched airborne drawing. The courier catches three envelopes through a broad arm arc and lands while the wheels wobble, overlap, and gradually stabilize.
+overall_soundscape: Bicycle chain chatter, rapid tire noise, paper flapping, a hard pothole clack, and one strained metal squeak accompany the descent.
+non_diegetic_music: Fast orchestral percussion, short brass bursts, and plucked strings emphasize the smear frames, impact, and recovery.
+ 
+---
+ 
+### 9. Paper-Collage Metamorphosis — Bird to Submarine
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 paper-collage animation composed for 864×480, using saturated printed color, torn magazine textures, decorative patterns, shallow rostrum-camera parallax, playful scale changes, and surreal replacement transitions. A patterned paper bird flies across a flat orange sky. Each wingbeat replaces the wings with different printed materials: newspaper, floral cloth, star charts, and metallic foil. The bird dives into a circular sun, which opens like an eye. It emerges as a tiny paper submarine swimming through a blue field of floating typography and finishes inside a postage-stamp frame.
+overall_soundscape: Layered paper flutters, scissors snip, adhesive peels, bubbles rise, and a small stamp lands with a dry tap.
+non_diegetic_music: Psychedelic electric organ, reversed guitar, hand percussion, and tape-looped flute drift through playful stereo movement.
+ 
+---
+ 
+### 10. Paint-on-Glass Animation — Boat to Great Fish
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 paint-on-glass animation composed for 864×480, using wet oil pigment, visible brush pressure, luminous backlighting, smeared edges, direct frame-by-frame repainting, and continuous transformation. A small red boat crosses a dark blue painted sea. The waves rise through broad brush strokes and curl around the hull. The boat's sail widens, softens, and becomes the fin of a great painted fish. The hull dissolves into its body as the sea transforms into the night sky. The fish swims upward between wet stars, leaving streaks of disturbed pigment behind it.
+overall_soundscape: Water laps softly, wooden boards creak, wet brushes drag across glass, and the transformed fish produces one deep underwater breath.
+non_diegetic_music: Slow bowed strings, glass harmonics, and a distant wooden flute sustain through the fluid metamorphosis.
+ 
+---
+ 
+### 11. Sand-on-Glass Animation — Travelers to Tree
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 sand animation composed for 864×480, with luminous backlighting, visible grains, finger-drawn edges, additive and subtractive marks, shifting density, and continuous handmade transformation. A caravan of three tiny figures moves across a dark sand dune. Wind sweeps grains from the dune into tall towers, turning the desert into a dense city around them. The travelers stop as windows appear through precise finger taps. One figure raises a hand; the buildings loosen into thousands of grains, curve overhead like a wave, and settle into the silhouette of a protective tree.
+overall_soundscape: Fine grains scrape over glass, wind builds gradually, distant footsteps cross dry sand, and the final tree settles with a soft granular rush.
+non_diegetic_music: Frame drum, breathy reed flute, and sustained low vocal tones move without a rigid meter.
+ 
+---
+ 
+### 12. High-Detail Cel Animation — Maintenance Rider
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 high-detail cel animation composed for 864×480, featuring precise mechanical drawing, dense industrial backgrounds, atmospheric haze, dramatic practical lights, strong perspective, and weighty human movement. An original maintenance rider speeds along the roof of a moving elevated train at night. She crouches beneath a signal gantry, plants one boot, and leaps across the gap between two carriages. Her coat and tool straps trail with delayed overlap. The train suspension reacts beneath her landing, sparks burst from the rails, and the camera tracks beside her while layered city structures rush past at different depths.
+overall_soundscape: Rail clatter, electric motors, rushing wind, fabric snaps, metal footfalls, and a sharp electrical spark fill the elevated route.
+non_diegetic_music: Driving analog synthesizer bass, gated percussion, and tense low strings build through the jump and release at the landing.
+ 
+---
+ 
+### 13. Early 3D Computer Animation — Wireframe Bird Transformation
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 early computer-animation test composed for 864×480, using black space, luminous vector grids, low-polygon geometry, visible faceting, Gouraud-shaded surfaces, primitive particle trails, and mathematically smooth camera movement. A geometric bird assembles from floating triangles above a glowing grid plane. Its wings rotate through rigid hierarchical joints before gradually gaining smoother interpolation. It accelerates into a wireframe tunnel while the camera follows directly behind. The bird rolls ninety degrees, sheds a trail of polygon fragments, and recombines into a reflective chrome sphere at the tunnel's vanishing point.
+overall_soundscape: Synthetic servo movements, digital chirps, filtered rushing noise, and crystalline polygon impacts accompany the transformation.
+non_diegetic_music: Arpeggiated analog synthesizers, electronic toms, and a slowly rising digital pad create an optimistic early-computer aesthetic.
+ 
+---
+ 
+### 14. Limited 2D Sci-Fi Animation — Orbital Mechanic
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 limited 2D animation composed for 864×480, using clean line art, flat cel shading, held body poses, selective eye and mouth movement, economical camera pans, speed-line backgrounds, and single-frame impact drawings. An original orbital mechanic braces inside a damaged spacecraft corridor. She remains in a strong held pose while warning lights flash and only her eyes track a rolling tool. She launches forward through three economical key poses. The background becomes horizontal speed lines, her hand closes around the tool in one graphic impact frame, and the corridor returns as she settles against the wall with hair tips drifting in zero gravity.
+overall_soundscape: Warning alarms pulse, ventilation hums, the tool rattles across metal, and one magnetic glove produces a sharp locking click.
+non_diegetic_music: Tense electronic drums, bright synthesizer brass, and a short rising string phrase stop exactly on the catch.
+ 
+---
+ 
+### 15. Vector Animation — Triangular Delivery Robot
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 vector animation composed for 864×480, using crisp scalable shapes, flat gradients, reusable symbol parts, motion tweens, pivot-based limbs, shape interpolation, and intentionally snappy easing. An original triangular delivery robot rolls toward a closed gate. Its telescoping arm extends in three mechanically perfect increments, presses the button, and retracts. The gate remains closed. The robot's eye symbol changes from a circle to a narrow rectangle, its entire body compresses vertically, and it springs over the gate through one exaggerated tweened arc before landing with a clean elastic settle.
+overall_soundscape: Small electric motors whir, interface tones beep, the button clicks, and the robot's spring produces a synthetic boing followed by a neat landing tap.
+non_diegetic_music: Minimal electronic funk with dry drum-machine hits, short bass notes, and bright sampled chords follows the clean vector timing.
+ 
+---
+ 
+### 16. Stylized Feature-Quality CGI — Cave Botanist
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 stylized feature-quality CG animation composed for 864×480, with clean topology, smooth spline interpolation, expressive but controlled facial animation, soft physically based lighting, subtle subsurface scattering, and natural secondary motion. An original round-bodied cave botanist reaches for a glowing seed suspended above a stone pedestal. He rises onto his toes, stretches through a clear line of action, and almost reaches it. The seed drifts sideways. His eyes lead, head follows, torso tilts, and backpack straps lag behind. He catches the seed, compresses into a relieved crouch, and smiles as its light spreads across his face.
+overall_soundscape: Boots scrape stone, backpack straps shift, the seed emits a delicate electrical hum, and the character releases a relieved breath.
+non_diegetic_music: Warm woodwinds, pizzicato strings, soft hand percussion, and one celesta accent support the appeal-driven performance.
+ 
+---
+ 
+### 17. Mixed-Material Stop-Motion — Felt Sailor
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 mixed-material stop-motion animation composed for 864×480, combining a felt puppet, folded-paper environment, cotton clouds, foil water, replacement faces, miniature depth of field, and tiny practical lighting changes. An original felt sailor stands in a paper boat crossing a rippling sheet of blue foil. A cotton storm cloud lowers on visible thread and releases glass-bead rain. The sailor opens a paper umbrella, but the next gust turns it inside out. He uses the inverted umbrella as a sail, and the boat accelerates toward a cardboard sunrise while every material retains its tactile construction.
+overall_soundscape: Foil crinkles like water, paper folds snap, glass beads tap the boat, thread creaks, and felt clothing brushes the miniature deck.
+non_diegetic_music: Toy piano, accordion, brushed percussion, and soft bowed saw create a handcrafted adventurous tone.
+ 
+---
+ 
+### 18. Contemporary Hybrid 2D/3D — Roller Skater
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 contemporary hybrid animation composed for 864×480, combining a dimensional 3D city, hand-drawn character animation on twos, variable frame rates, inked contours, halftone shading, chromatic misregistration, painted effects, stepped poses, and brief graphic impact frames. An original roller skater races down a curved rooftop ramp. The environment moves smoothly at full frame rate while the skater holds bold graphic poses with intentionally stepped spacing. She launches across an alley, rotates through a hand-drawn smear, and passes through a one-frame panel of abstract color and oversized motion lines. She lands in the 3D space, skids sideways, and leaves a painted brushstroke trail that remains suspended behind her.
+overall_soundscape: Skate wheels rattle, wind rushes between buildings, the ramp vibrates, and the landing combines a wheel impact, paper slap, and short spray-paint hiss.
+non_diegetic_music: Punchy hip-hop drums, chopped brass, elastic synth bass, and turntable scratches shift rhythmically with the changing frame rates.
+ 
+---
+ 
+### 19. Motion-Design Typography — "MAKE IT MOVE"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 motion-design test composed for 864×480, using clean After Effects-style text animators, per-character position and scale controls, graph-editor easing, motion blur, and controlled overshoot. On a matte cream background, the word "MAKE" enters one letter at a time from below, each character overshooting vertically before settling into strict alignment. "IT" snaps into the center through a quick tracking expansion. The word "MOVE" stretches across the frame as individual letters rotate forward in shallow 3D, compress on impact, and rebound. Thin black guide lines briefly appear to demonstrate baseline and cap-height alignment, then retract through trim paths. The final title reads exactly "MAKE IT MOVE" and holds completely stable for the final half-second.
+overall_soundscape: Dry clicks mark each letter landing, accompanied by two short air swishes and one soft low-frequency impact when the full phrase locks.
+non_diegetic_music: A 118 BPM electronic rhythm of muted kicks, rim clicks, and short marimba-like tones follows the staggered letter animation and stops on the final lock.
+ 
+---
+ 
+### 20. Variable Font Morphing — "THINK / BUILD / TEST"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 typographic animation composed for 864×480, testing variable-font weight, width, slant, and optical-size axes with crisp digital edges and smooth interpolation. The word "THINK" begins as extremely thin, widely spaced letters. Its strokes thicken while its width compresses, creating the word "BUILD" through a legible character-by-character morph. The letters then lean forward, accelerate, and transform into "TEST" without dissolving or losing typographic structure. A rectangular frame responds elastically to each word's changing dimensions, expanding and contracting through clean easing curves. The sequence ends with the three exact words stacked as "THINK", "BUILD", and "TEST", aligned to a strict left grid.
+overall_soundscape: Fine mechanical ticks accompany changes in font weight, with a restrained elastic pull sound during width compression and three clean alignment clicks at the end.
+non_diegetic_music: Minimal synthesizer pulses and dry electronic percussion accelerate slightly through the three transformations, then resolve into one sustained chord.
+ 
+---
+ 
+### 21. Vector Trim-Path Morphing — "CHOOSE YOUR ROUTE"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 vector motion-design test composed for 864×480, using After Effects-style shape layers, trim paths, tapered strokes, rounded joins, and path-following animation. A single cobalt line draws itself across a white field, forming a bicycle through one uninterrupted path. The wheels complete first, then rotate while the line extends forward and redraws itself as a city bus. The bus doors open through two precise vector folds before the same line travels upward and transforms into a walking person carrying a small bag. Three route symbols align beneath the figure, and the text "CHOOSE YOUR ROUTE" writes on from left to right with exact spelling. Every transformation passes through readable intermediate geometry.
+overall_soundscape: Pencil-like vector scratches, small wheel clicks, a clean door-fold sound, and one soft footstep align with the changing icons.
+non_diegetic_music: A light 104 BPM pattern of plucked synthesizer notes and muted woodblocks follows the moving line and ends with a concise two-note cadence.
+ 
+---
+ 
+### 22. Graphic Icon Morphing — "SMALL CHANGES. CLEAR RESULTS."
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 graphic-advertising animation composed for 864×480, using vector shape interpolation, track mattes, strict center alignment, smooth color-region exchange, and clean elastic easing. A yellow circle becomes a simplified sun, its rays retract, and its central shape elongates into a light bulb. The bulb's glass narrows into a water droplet, which splashes outward and reforms as a green leaf. The leaf folds along its center and becomes a check mark inside a rounded square. Each icon holds for a brief readable beat before transforming through continuous intermediate silhouettes. The final card reads "SMALL CHANGES. CLEAR RESULTS." in bold black type beneath the green check mark.
+overall_soundscape: Soft tonal pops identify each icon, while the droplet produces one clean splash and the final check mark lands with a compact interface click.
+non_diegetic_music: Bright electronic mallets, restrained bass pulses, and soft hand percussion follow the four-stage morphing rhythm.
+ 
+---
+ 
+### 23. 2.5D Layered Parallax Explainer — "YOUR CITY, CONNECTED"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 2.5D explainer animation composed for 864×480, using layered vector artwork separated in shallow depth, null-parented camera movement, soft cast shadows, controlled parallax, and smooth After Effects-style easing. A generic commuter stands at a bus stop while foreground signs, the character, the shelter, distant buildings, and clouds occupy separate depth planes. The camera pushes through the scene as the character checks a simple phone interface. A route line emerges from the screen, travels into the environment, and connects the shelter to three distant landmarks. The layers briefly rotate to reveal their card-like construction, then return to a clean frontal composition. The title "YOUR CITY, CONNECTED" settles above the route.
+overall_soundscape: Quiet city ambience sits beneath phone taps, a soft route-line sweep, distant vehicle movement, and one restrained confirmation tone.
+non_diegetic_music: Warm electronic chords and a steady 96 BPM click pattern increase slightly as the route connects, then soften under the final title.
+ 
+---
+ 
+### 24. Isometric Infographic Assembly — City Infrastructure
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 isometric motion-design composition created for 864×480, using modular vector geometry, grid-based alignment, orthographic perspective, stepped object assembly, and clean infographic hierarchy. An empty isometric grid fills with a small generic city: roads extend tile by tile, simple buildings rise vertically, trees pop into place with slight overshoot, and tiny vehicles begin moving along fixed paths. Three transparent data columns grow beside the buildings and display the exact labels "ENERGY", "WATER", and "TRANSIT". Their values rise through animated bars rather than numerical text. A circular pulse travels through the streets, turning disconnected gray structures into a coordinated blue-and-green system.
+overall_soundscape: Modular clicks accompany each building placement, with quiet vehicle sounds, a low electrical pulse, and three ascending confirmation tones for the data columns.
+non_diegetic_music: Precise electronic percussion, short plucked notes, and a steady bass sequence create a controlled corporate-explainer rhythm.
+ 
+---
+ 
+### 25. Broadcast Sports Graphics Stinger — "FINAL LAP"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 broadcast sports-package animation composed for 864×480, using angular masks, high-contrast red and charcoal graphics, 3D camera moves, light streaks, motion-blurred typography, and rapid stinger transitions. A generic runner silhouette launches from starting blocks as diagonal panels wipe across the frame. A circular track diagram rotates beneath the athlete, then expands into a stadium-like tunnel of repeating lines. [Shot 2] At 00:02.600, the sequence transitions through a fast white flash into an extreme close graphic crop of moving shoes, stopwatch icons, and animated speed data. The elements snap backward to reveal the exact title "FINAL LAP" above the subtitle "LIVE TONIGHT".
+overall_soundscape: A starting signal, shoe impacts, sharp panel swishes, mechanical stopwatch clicks, and one deep title impact synchronize with the broadcast graphics.
+non_diegetic_music: Fast hybrid percussion, short brass stabs, pulsing synth bass, and a rising tonal sweep culminate in a compact sports-broadcast sting.
+ 
+---
+ 
+### 26. Broadcast News Data Package — "WORLD UPDATE"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 contemporary broadcast-news animation composed for 864×480, using blue-white data ribbons, clean sans-serif typography, transparent 3D panels, rotating map grids, and precise camera travel through layered information. Thin lines sweep across a dark globe made entirely from dots. Rectangular data cards slide forward at different depths, showing abstract charts and the exact labels "ECONOMY", "CLIMATE", and "TECHNOLOGY". The camera passes through the final panel, which becomes a bright studio-like title field. A red line travels around the frame perimeter and locks beneath the exact title "WORLD UPDATE". All background movement slows while the title remains perfectly stable and legible.
+overall_soundscape: Fine digital ticks, restrained interface sweeps, low transmission noise, and one authoritative bass impact accompany the panel movements.
+non_diegetic_music: A moderate-tempo broadcast bed combines pulsing low strings, electronic percussion, and clean brass-like synthesizer accents before ending on a short news sting.
+ 
+---
+ 
+### 27. Product Motion Commercial — Silver Water Bottle
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 product-and-motion-design commercial composed for 864×480, combining a generic unbranded silver water bottle with After Effects-style graphic overlays, track mattes, animated callouts, exact geometry, and controlled product rotation. The bottle rotates slowly against a pale blue field while a circular mask reveals a macro view of its textured lid. Fine vector lines extend from the product and display the exact labels "LIGHTWEIGHT", "INSULATED", and "REUSABLE". Each callout appears through a short trim-path animation and locks without covering the bottle. A blue wave rises behind the product, passes through it as a transparent matte, and becomes the final background. The bottle stops in a clean centered hero pose.
+overall_soundscape: A soft metal rotation sound, lid click, fine interface ticks, and one controlled water sweep accompany the product and callouts.
+non_diegetic_music: Sparse 100 BPM electronic percussion and polished glass-like tones maintain a clean commercial rhythm and fade beneath the final pose.
+ 
+---
+ 
+### 28. Liquid Gradient Brand Ident — "FRESH IDEAS FLOW"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 contemporary motion-branding test composed for 864×480, using smooth liquid gradients, mesh-like color fields, turbulent displacement, soft bloom, matte layering, and slow organic graphic morphing. Magenta, orange, and violet blobs drift across a black field, collide, flatten, and exchange color without muddying their edges. Negative space opens between them to reveal the word "FRESH". The letters bend gently as though refracted through liquid, then regain straight geometric edges. The gradient masses pull outward and reveal the second line "IDEAS FLOW". Both lines remain high contrast, correctly spelled, and centered while the background continues a restrained slow motion.
+overall_soundscape: Soft fluid sweeps, low bubble-like pulses, and delicate glass taps correspond to the gradient collisions and typography reveal.
+non_diegetic_music: Wide synthesizer pads, a slow rounded bass pulse, and sparse electronic droplets create a smooth contemporary brand-ident sound.
+ 
+---
+ 
+### 29. Frosted Glass UI Motion — "EVERYTHING IN VIEW"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 interface motion-design test composed for 864×480, using translucent glass panels, background blur, soft colored refraction, thin luminous borders, clean UI typography, and depth-aware 3D layer movement. A dark gradient background contains slowly moving colored lights. Three frosted interface cards rise from below, overlap in shallow depth, and display generic charts, calendar blocks, and message icons. The front card expands while the rear cards slide outward through precise easing. A cursor activates a circular control, causing every panel to reorganize into a single centered dashboard. The exact text "EVERYTHING IN VIEW" appears above it while highlights travel once across the glass edges.
+overall_soundscape: Restrained interface clicks, translucent panel slides, one soft confirmation chime, and a faint electrical room tone support the UI movement.
+non_diegetic_music: Minimal electronic pulses, filtered clicks, and a low sustained chord follow the panel organization without overwhelming the interface sounds.
+ 
+---
+ 
+### 30. Particle-Field Text Gathering — "SIGNAL"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 particle-based motion-design animation composed for 864×480, using thousands of fine luminous points, turbulence fields, attractor-driven motion, depth-of-field falloff, and a controlled 3D camera push. A loose cloud of cyan particles drifts through dark space. A moving force passes through the cloud, creating a visible wave that aligns the points into parallel signal bands. The bands twist around one another, flatten toward camera, and gather into the exact word "SIGNAL". A few particles overshoot, curve backward, and settle into the letter edges. A thin pulse travels through the completed title from left to right while the remaining background particles slow almost to stillness.
+overall_soundscape: Fine granular movement, airy digital sweeps, subtle electrical crackles, and one focused tonal pulse align with the particle gathering.
+non_diegetic_music: A restrained 92 BPM electronic pattern uses deep kicks, granular percussion, and sustained high-frequency pads, resolving when the title forms.
+ 
+---
+ 
+### 31. Editorial Collage Transitions — "KEEP THE CITY MOVING"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 editorial motion-design sequence composed for 864×480, combining scanned paper, torn photographic fragments, marker strokes, halftone texture, masking, photocopier grain, and fast After Effects-style collage transitions. A generic black-and-white photograph of a city cyclist tears into three vertical strips. The strips slide apart to reveal a bright yellow paper field beneath them. Hand-drawn arrows race around the cyclist, a red circle stamps over one wheel, and oversized cut-paper letters assemble into the exact title "KEEP THE CITY MOVING". The frame flips like a physical page, briefly exposing tape, registration marks, and rough edges, then lands on a balanced poster composition.
+overall_soundscape: Paper tears, tape peels, marker scratches, a rubber-stamp impact, and rapid page flips create a tactile editorial sound bed.
+non_diegetic_music: Chopped drums, upright-bass samples, handclaps, and short brass fragments create a brisk editorial montage rhythm.
+ 
+---
+ 
+### 32. Glitch & Displacement Map Test — "NOISE" to "SIGNAL"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 digital motion-design test composed for 864×480, using displacement maps, RGB channel separation, scan-line slicing, block compression, time displacement, and brief data-moshing transitions while preserving readable typography. The word "NOISE" appears in large white letters on black. Horizontal bands offset different sections of the word while red, green, and blue edges separate and reconnect. The distortion intensifies until the letter shapes nearly collapse, then a vertical synchronization line passes across the frame and rebuilds them as the exact word "SIGNAL". Small fragments continue flickering around the edges, but the final word remains stable and legible for the last second.
+overall_soundscape: Digital crackles, short buffer stutters, narrow static bursts, and one clean synchronization beep follow the visual disruption and repair.
+non_diegetic_music: Fragmented electronic percussion and an unstable bass pulse gradually become a steady 110 BPM rhythm as the final word stabilizes.
+ 
+---
+ 
+### 33. Extruded 3D Typography Tunnel — "FORWARD"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 typography animation composed for 864×480, using deeply extruded 3D letterforms, physically plausible shadows, smooth camera movement, shallow depth, and clean motion-graphics lighting. The camera travels rapidly through a tunnel constructed from repeated versions of the word "FORWARD". Each layer is offset in depth and slightly rotated, creating rhythmic parallax. The tunnel narrows as the letters align, then the camera passes through the final "O" and emerges into a bright open field. One solid extruded title reading "FORWARD" rotates upright, lands on an invisible baseline with a slight overshoot, and casts a long geometric shadow toward the lower-right corner.
+overall_soundscape: Layered air passes, deep spatial whooshes, restrained mechanical rotations, and one solid landing impact accompany the camera and title.
+non_diegetic_music: Driving electronic drums and an ascending synthesizer arpeggio increase through the tunnel, resolving into a broad sustained chord at the landing.
+ 
+---
+ 
+### 34. 3D Flowing Ribbon Text — "IDEAS TRAVEL FURTHER"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 motion-design animation composed for 864×480, using text-on-path controls, a flowing 3D ribbon, per-character orientation, depth-aware masking, and smooth spline-based movement. A blue ribbon enters from the left, loops around the camera, and crosses the frame in layered curves. The exact phrase "IDEAS TRAVEL FURTHER" appears along its surface, with every letter following the changing direction while remaining upright and readable. The ribbon folds through the center, briefly hiding sections of the phrase behind itself, then straightens into a clean horizontal band. The words detach from the ribbon one at a time, slide into a centered title arrangement, and settle without drifting.
+overall_soundscape: Soft fabric-like sweeps, subtle passing-air effects, and precise clicks accompany the ribbon folds and final character alignment.
+non_diegetic_music: Flowing synthesizer arpeggios, light hand percussion, and a steady bass note follow the ribbon's curves and finish with a clean rhythmic stop.
+ 
+---
+ 
+### 35. Forced-Perspective 3D Billboard — "STEP INSIDE"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 digital-out-of-home test composed for 864×480, showing a large corner-mounted urban LED billboard from the intended street viewing position. The screen displays a photoreal animated orange cube inside a deep virtual room. Forced perspective makes the room appear to extend physically into the building. The cube rolls toward the corner seam, strikes it, and breaks into smaller cubes that appear to spill beyond the screen edge toward the street. They pause in apparent open space, reverse direction, and snap back into the billboard. The pieces assemble into the exact text "STEP INSIDE" while the illusionary room returns to a flat graphic background.
+overall_soundscape: City traffic and distant pedestrians surround deep virtual impacts, small tumbling cube sounds, and one sharp reverse suction as the pieces return to the display.
+non_diegetic_music: Low electronic percussion and short spatial synthesizer sweeps accent the forced-perspective impacts and final title assembly.
+ 
+---
+ 
+### 36. Multi-Display Synchronized Billboard — "ONE CITY. ONE MOMENT."
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 out-of-home motion-design test composed for 864×480, showing a city plaza containing six differently shaped digital displays viewed together from one fixed camera position. Each screen begins with an independent abstract animation: stripes, circles, particles, gradients, numbers, and line art. A white pulse enters the leftmost display and travels sequentially across the physical gaps between screens. As it reaches each display, its graphics reorient toward a shared composition. During the final two seconds, all six screens synchronize to form one enormous image spanning the plaza: a flowing blue wave behind the exact words "ONE CITY. ONE MOMENT." Screen boundaries remain visible while the combined design aligns precisely.
+overall_soundscape: Urban plaza ambience sits beneath six distinct electronic textures that converge into one synchronized pulse and a final wide tonal impact.
+non_diegetic_music: Layered rhythmic loops begin independently, progressively synchronize to 120 BPM, and resolve together when the unified message appears.
+ 
+---
+ 
+### 37. Planar Tracking Sports Overlay — "KEEP MOVING"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 mixed-media sports commercial composed for 864×480, combining generic live-action running footage with After Effects-style planar tracking, motion-tracked typography, animated paths, graphic speed lines, and clean data overlays. A generic runner moves along a concrete waterfront at sunrise. A bright line locks to the pavement beneath each footfall, tracing the route without sliding. A circular marker follows the runner's torso while the exact data text "PACE 06:42" and "DISTANCE 3.2 KM" remains anchored beside the body. On the final stride, the tracked path rises from the ground, wraps around the runner as a graphic arc, and wipes the footage into a bold title card reading "KEEP MOVING".
+overall_soundscape: Natural footsteps, controlled breathing, fabric movement, distant water, and precise interface ticks synchronize with the tracked graphic events.
+non_diegetic_music: A 116 BPM electronic beat with clipped percussion and pulsing bass follows the stride rhythm and expands beneath the final title.
+ 
+---
+ 
+### 38. Match-Cut Commercial Transitions — "START SOMETHING"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 commercial motion-design test composed for 864×480, using center-locked match cuts, shape continuity, time remapping, speed ramps, masking, and seamless transitions between unrelated generic objects. A top-down coffee cup rotates clockwise; its circular rim match-cuts into a rising orange sun. The sun accelerates across the sky and becomes the spinning wheel of a bicycle. The wheel fills the frame, and its black center transforms into a vinyl record rotating on a turntable. A highlight traveling across the record widens into a white circular field. The exact title "START SOMETHING" emerges through negative space while the circle settles behind it. Every transition preserves the same central position and rotational direction.
+overall_soundscape: A ceramic tap transforms into a soft sunrise swell, then bicycle-chain movement, a record-needle contact, and one clean title impact carry continuously across the match cuts.
+non_diegetic_music: An upbeat 112 BPM groove evolves across the transitions, beginning with soft percussion, adding bass during the bicycle moment, and introducing a brief record-scratch accent before the final chord.
+ 
+---
+ 
+### 39. Seamless Vector Tessellated Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 abstract motion-design loop composed for 864×480, using crisp vector shape layers, geometric repeaters, trim paths, flat color, precise graph-editor easing, and clean motion blur. Interlocking circles, diamonds, and rounded rectangles cover the full frame as a seamless tessellated texture. The circles rotate clockwise while the diamonds rotate counterclockwise, causing negative-space stars to open and close rhythmically. A wave of scale animation travels diagonally from lower left to upper right, wraps continuously across the frame edges, and returns from the opposite side. Over exactly five seconds, every shape completes one whole-number rotation and the traveling wave completes one full spatial cycle. The final frame exactly matches the opening composition, shape positions, rotations, scale values, and motion phase without a pause, fade, or held ending.
+overall_soundscape: Soft geometric clicks, short air swishes, and muted elastic pops form a repeating pattern synchronized to the expanding and contracting shapes. The final sound connects directly into the opening sound without a gap or reverb tail.
+non_diegetic_music: An exact 5.00-second loop at 96 BPM uses dry electronic percussion, rounded bass pulses, and short marimba-like tones. The two-bar phrase begins and ends at the same musical and rhythmic phase.
+ 
+---
+ 
+### 40. Paint-on-Glass Seamless Metamorphosis Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 paint-on-glass animation loop composed for 864×480, using luminous backlighting, wet oil pigment, visible brush pressure, smeared edges, frame-by-frame repainting, and continuous fluid metamorphosis. Deep blue, turquoise, white, and amber currents fill the entire frame. Two painted spirals rotate in opposite directions while smaller pigment streams flow between them. Amber droplets stretch into fish-like silhouettes, swim in a circular path around the center, and dissolve back into identical droplets. Brush marks entering the right edge continue naturally from the left edge, creating a spatially tileable texture. At the end of exactly one complete current cycle, every spiral, droplet, streak, pigment density, and brush edge returns to the precise opening state while maintaining uninterrupted motion across the loop boundary.
+overall_soundscape: Soft water movement, wet brushes dragging across glass, low bubbles, and delicate fluid sweeps form a cyclical ambience with no distinct beginning or ending.
+non_diegetic_music: Slow glass harmonics, bowed tones, and soft hand percussion form an exact five-second circular phrase whose final sustained texture reconnects seamlessly to its opening.
+ 
+---
+ 
+### 41. Clay-Animation Miniature Garden Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 clay-animation loop composed for 864×480, showing a full-frame miniature garden made from softly sculpted plasticine with visible thumbprints, practical lighting, tactile surface wobble, stepped movement, and subtle registration variation. Six clay flowers surround a central brass-colored gear. The gear completes exactly one clockwise revolution, driving each flower through a repeating sequence: stems bend outward, petals open, centers rise, petals close, and stems return upright. A small clay bee follows a complete circular flight path through stepped poses, landing on the same flower for one frame before immediately beginning the cycle again. Every gear tooth, petal, stem, bee position, contact shadow, and practical-light flicker matches the opening frame exactly at 5.00 seconds, with no final hold.
+overall_soundscape: Tiny gear clicks, clay petals peeling open, miniature spring sounds, and a soft buzzing flight circle repeat as one continuous mechanical-organic cycle.
+non_diegetic_music: A precise 96 BPM loop of toy piano, marimba, pizzicato strings, and muted woodblocks follows the flower sequence and reconnects cleanly after two bars.
+ 
+---
+ 
+### 42. Wireless Speaker Product Rotation Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 premium product-animation loop composed for 864×480. A generic unbranded matte-white cylindrical wireless speaker stands centered on a black mirrored turntable against a dark studio background. Photoreal materials, exact product geometry, controlled specular highlights, clean reflections, shallow depth of field, and restrained motion blur remain stable throughout. The turntable rotates the speaker clockwise through exactly 360 degrees at constant speed. Simultaneously, a narrow vertical light reflection travels once around its surface and returns to the original front-facing position. The camera remains completely locked. At 5.00 seconds the speaker orientation, grille pattern, buttons, highlight position, reflection, focus, shadow, turntable phase, and background illumination exactly match the opening frame, with rotation continuing naturally into the next loop.
+overall_soundscape: A quiet turntable motor, faint bearing movement, and a subtle studio ventilation tone form a steady cyclical sound bed without a prominent start or stop.
+non_diegetic_music: Sparse polished electronic pulses and glass-like tones form an exact five-second loop, remaining restrained so the product sounds stay clearly audible.
+ 
+---
+ 
+### 43. Tactile Stop-Motion Tea Tin Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 tactile stop-motion product loop composed for 864×480. A generic rectangular tea tin with an original green leaf pattern stands on a small wooden turntable inside a handcrafted paper studio. The tin, paper backdrop, printed label, miniature practical lights, and wooden platform show physical texture, subtle registration jitter, and tiny exposure variation. The turntable completes exactly one 360-degree clockwise revolution. During the rotation, folded-paper leaves rise sequentially behind the tin, open like fans, then fold down in reverse order before the product returns to front view. The tin's orientation, label position, paper-leaf folds, practical shadows, exposure phase, platform angle, and every visible object return exactly to the opening state at 5.00 seconds without stopping.
+overall_soundscape: Wood clicks softly beneath the turntable, folded paper creases open and closes, and the metal tin produces a faint resonant vibration. The sequence forms one continuous repeating sound cycle.
+non_diegetic_music: Plucked strings, soft wooden percussion, and a delicate bell pattern create an exact two-bar loop at 96 BPM.
+ 
+---
+ 
+### 44. Kinetic-Typography Breathing Loop — "BREATHE IN" / "BREATHE OUT"
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 kinetic-typography loop composed for 864×480, using clean After Effects-style text animators, variable-font weight and width axes, per-character tracking, smooth elastic easing, and restrained motion blur. On a deep navy background, the exact words "BREATHE IN" appear centered in thin widely spaced white letters. The letters gradually thicken, widen, and move apart as a soft circular field expands behind them. At the midpoint, the phrase morphs legibly into "BREATHE OUT". The letters then narrow, lighten, and move inward while the circular field contracts. During the final movement, "BREATHE OUT" morphs back into the exact opening phrase "BREATHE IN". At 5.00 seconds every letter shape, tracking value, weight, width, circle size, background tone, and motion velocity matches the first frame, with no freeze or fade.
+overall_soundscape: A soft inhaling air texture grows during expansion and becomes a gentle exhaling texture during contraction, with the final breath phase flowing naturally back into the first.
+non_diegetic_music: Warm synthesizer pads and a quiet two-note pulse form an exact five-second harmonic loop with no final cadence or lingering tail.
+ 
+---
+ 
+### 45. Isometric Conveyor System Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 isometric motion-design loop composed for 864×480, using modular vector geometry, orthographic perspective, precise path animation, clean shadows, and tightly controlled easing. A small generic package moves around a square conveyor system that passes through four miniature stations: sorting, scanning, transport, and delivery. At each corner, a mechanical arm rotates ninety degrees, transfers the package, and returns to its original position. Tiny delivery vehicles follow repeating paths around the outer streets, traffic signals cycle through the same sequence, and small data pulses travel through connecting lines. The package completes exactly one full circuit and returns to its opening position, orientation, and conveyor segment at 5.00 seconds. Every arm, belt marker, vehicle, signal, pulse, shadow, and rotating element returns to the exact opening phase while motion continues across the boundary.
+overall_soundscape: Conveyor rollers, compact scanner beeps, small mechanical arm movements, quiet vehicle motors, and rhythmic package contacts form one repeating industrial cycle.
+non_diegetic_music: Precise electronic percussion, plucked synthesizer notes, and a soft bass sequence create an exact 96 BPM two-bar loop.
+ 
+---
+ 
+### 46. Comic-Print Martial Artist Action Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 full-frame comic-print action loop composed for 864×480, using an original masked martial artist with no recognizable franchise design, inked contours, halftone shading, offset color registration, stepped animation on twos, hand-drawn smear frames, graphic impact poses, and painted motion streaks. The fighter begins in a low staff-guard pose against an abstract red-and-cream training hall. They pivot clockwise, sweep the staff near the floor, rise through a spinning overhead strike, leap across the center, and land back in the identical opening guard. The camera performs one complete circular arc around the fighter while maintaining full-body framing. Clothing, staff tassels, dust, and motion streaks follow through in closed cycles. At exactly 5.00 seconds, the fighter's pose, staff angle, camera position, background panels, halftone pattern, dust particles, cloth phase, and motion velocity match the opening frame perfectly.
+overall_soundscape: Staff swings, foot slides, fabric snaps, controlled breaths, and one compact impact accent form a continuous rhythmic action pattern that reconnects without silence.
+non_diegetic_music: Punchy hip-hop drums, short brass samples, and elastic bass form an exact two-bar 96 BPM loop, with the last beat leading directly into the opening guard.
+ 
+---
+ 
+### 47. 3D Particle Metamorphosis Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 particle-animation loop composed for 864×480, using thousands of luminous points, turbulence fields, attractors, flocking behavior, depth-of-field falloff, and a smooth locked-center 3D camera. A spherical cloud of cyan particles rotates slowly in dark space. The sphere stretches into a horizontal ring, twists into a torus, collapses through the center into a narrow hourglass, and expands back into the original sphere. A wave of violet color travels through the particle mass once and returns every point to cyan. Every particle follows a deterministic closed path rather than dissolving or randomly respawning. At 5.00 seconds, the exact particle distribution, velocity, brightness, depth, rotation phase, color, focus, and camera position match the opening frame while the movement continues fluidly.
+overall_soundscape: Fine granular movement, airy electrical sweeps, delicate particle ticks, and a low circular pulse create an unbroken evolving texture.
+non_diegetic_music: Granular synthesizer tones, deep rounded pulses, and sparse high-frequency chimes form an exact five-second loop with identical opening and closing phase.
+ 
+---
+ 
+### 48. Forced-Perspective Outdoor Billboard Loop
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 digital-out-of-home loop composed for 864×480, showing a large corner-mounted LED billboard from its intended street viewing angle at night. The animated display presents a deep virtual room using forced perspective. A generic glossy red ball rolls from the rear of the virtual room toward the corner seam, appears to emerge beyond the physical screen, and floats briefly above the street. It stretches into a ribbon, curves around the outer corner, retracts into the billboard, and reforms as the same ball at the exact rear starting position. The virtual room lighting responds continuously to the ball and ribbon. At 5.00 seconds, the ball position, rotation, shape, contact shadow, billboard content, LED brightness, room perspective, surrounding reflections, and animation velocity exactly match the opening frame, creating an uninterrupted public-display loop.
+overall_soundscape: Nighttime city ambience surrounds a deep rolling sound, a soft spatial whoosh as the object appears to leave the display, and a smooth reverse sweep as it returns. The sound cycle reconnects without a final impact.
+non_diegetic_music: Low electronic percussion and broad spatial synthesizer tones form an exact five-second loop designed for continuous outdoor playback.
+ 
+---
+ 
+### 49. Squash and Stretch — Bouncing Ball
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 traditional hand-drawn cel-animation test composed for 864×480, with confident ink contours, opaque painted color, a simple warm studio background, and smooth animation on ones. A bright red rubber ball drops from above frame toward a wooden floor. It stretches vertically during the fastest part of the fall, compresses into a broad flattened oval at impact while preserving its apparent volume, then springs upward through a long vertical stretch. Each bounce loses height through progressively smaller spacing. On the final bounce, the ball squashes gently, rolls a short distance, and settles into its original round shape. The deformation follows the direction and force of motion rather than changing the ball's mass.
+overall_soundscape: Each impact produces a soft rubber thump with decreasing intensity. A brief elastic whistle accompanies the fastest stretches, followed by a quiet rolling sound.
+non_diegetic_music: A light marimba phrase follows the bounce heights, with descending notes and a soft final chord.
+ 
+---
+ 
+### 50. Squash and Stretch — Flour Sack & Heavy Cube
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 traditional hand-drawn cel-animation test composed for 864×480, using the same confident ink contours, opaque painted color, warm studio background, smooth animation on ones, and strict preservation of apparent volume. An original flour-sack character stands beside a heavy iron cube. It crouches deeply, compressing into a wide squat through a clear anticipation pose, then wraps both upper corners around the cube. As it strains upward, its torso stretches vertically while its lower body remains compressed against the floor. The cube rises one inch, then drops. The sack collapses into a broad flattened shape, rebounds upward through two elastic ripples, and returns to its neutral proportions. Every deformation communicates force and weight without changing the character's total volume.
+overall_soundscape: Cloth creaks and stretches beneath a low exertion sound. The iron cube lands with a dense impact, followed by two soft fabric rebounds.
+non_diegetic_music: Plucked strings and bassoon follow the effort, pause during the lift, and finish with two playful descending notes.
+ 
+---
+ 
+### 51. Squash and Stretch — Forest Creature & Falling Acorn
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 traditional hand-drawn cel-animation test composed for 864×480, maintaining the same inked contours, opaque painted color, warm theatrical background, smooth animation on ones, and volume-conscious deformation. An original round forest creature rests beneath a mushroom. A falling acorn taps the ground behind it. The creature first compresses downward, with its cheeks, torso, and legs squashing into a compact shape. It then springs vertically into an elongated startled pose, its eyes and ears stretching upward along the same line of action. The body hangs for one brief suspended drawing, drops, compresses again on landing, and rebounds through progressively smaller ripples. Its cheeks and belly settle one beat after the torso, restoring the exact neutral body proportions.
+overall_soundscape: A dry acorn tap triggers a quick intake of breath, a soft elastic spring sound, and three increasingly small landing thumps.
+non_diegetic_music: Clarinet, pizzicato strings, and one cymbal tick accent the surprise and elastic recovery.
+ 
+---
+ 
+### 52. Anticipation and Hesitation — Swimmer on Diving Board
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 clay stop-motion animation composed for 864×480, using softly sculpted plasticine, practical miniature lighting, visible thumbprints, stepped pose increments, and subtle registration jitter. An original clay swimmer stands at the end of a miniature diving board above blue foil water. The swimmer approaches the edge, looks down, and pulls back through a visible hesitation. One foot retreats, the shoulders rise, and the replacement mouth shifts from confidence to concern. After a brief held pose, the swimmer inhales, swings both arms backward, bends deeply through a strong anticipation, and drives forward. The board bends before releasing. The swimmer leaves frame in a clean diving arc while the board continues vibrating after the departure.
+overall_soundscape: Clay feet stick lightly to the board, the miniature structure creaks, and the diver takes one nervous breath. The board releases with a sharp spring sound.
+non_diegetic_music: Plucked strings and muted woodblocks pause during the hesitation, then accelerate into the jump.
+ 
+---
+ 
+### 53. Anticipation and Hesitation — Clay Mechanic & Oversized Hammer
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 clay stop-motion animation composed for 864×480, maintaining the same plasticine materials, practical miniature lighting, visible thumbprints, stepped movement, and subtle registration variation. An original clay mechanic grips an oversized toy hammer beside a small peg. The mechanic raises the hammer halfway, pauses, adjusts both feet, and studies the target. The hammer lowers slightly as doubt enters the expression. After a clear held hesitation, the mechanic shifts weight backward, raises the hammer far behind the head through an exaggerated anticipation arc, and freezes for one accented pose. The hammer then accelerates downward and strikes the peg. The mechanic's body follows through past the target while the peg sinks neatly into the bench.
+overall_soundscape: Clay hands grip the wooden handle, joints click between poses, and the hammer produces one dense miniature impact followed by a small bench rattle.
+non_diegetic_music: Bass clarinet and plucked strings create a stop-start rhythm, leaving silence during the final anticipatory hold before the strike.
+ 
+---
+ 
+### 54. Anticipation and Hesitation — Clay Courier at Doorway
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 clay stop-motion animation composed for 864×480, using the same tactile plasticine surfaces, practical miniature set, visible thumbprints, replacement facial pieces, and stepped pose increments. An original clay courier approaches a dark doorway while holding a small parcel. The courier reaches toward the handle, stops one inch away, pulls the hand back, and listens. The head leans toward the door while the body remains behind the planted feet. After a long readable hesitation, the courier slowly raises the parcel like a shield. A faint sound comes from inside. The courier compresses into a backward anticipation pose, then lunges forward, opens the door quickly, and steps through. The parcel arrives one pose after the torso, emphasizing the delayed commitment.
+overall_soundscape: Small clay footsteps, paper wrapping, a quiet interior knock, and the door's miniature hinge creak support the hesitant action.
+non_diegetic_music: Sparse toy piano and bowed saw sustain through the pause, followed by a short rhythmic burst when the courier commits.
+ 
+---
+ 
+### 55. Slow In and Slow Out — Cobalt Circle Target Alignment
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 vector motion-design test composed for 864×480, using crisp shape layers, a pale gray field, graph-editor easing, controlled motion blur, and exact geometric alignment. A cobalt circle begins at the far left in complete stillness. It moves slowly at first, accelerates smoothly through the center, then decelerates gradually as it approaches a thin vertical target line at frame right. Closely spaced positions define the beginning and ending, while wider spacing defines the fast middle movement. The circle overshoots the target by a small amount, eases backward, and settles precisely against the line. A faint dotted motion path appears beneath it, clearly visualizing the changing spacing before fading away.
+overall_soundscape: A low motor-like tone rises with acceleration and falls during deceleration. The final settle produces a restrained interface click.
+non_diegetic_music: A clean electronic pulse expands and contracts with the velocity curve, resolving without a sharp stop.
+ 
+---
+ 
+### 56. Slow In and Slow Out — Three Interface Cards
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 vector interface animation composed for 864×480, using the same clean shape layers, pale gray field, graph-editor easing, subtle motion blur, and exact geometric spacing. Three rounded rectangular cards enter from the bottom one after another. The first uses a gentle ease-in and ease-out, approaching its position smoothly. The second starts more slowly, accelerates sharply, overshoots, and settles with one restrained rebound. The third moves quickly through the middle but begins and ends with long soft eases. Thin velocity graphs briefly appear beside each card, matching the visible motion. All three cards then slide horizontally as one grouped unit, accelerating and decelerating together before locking into an evenly spaced final grid.
+overall_soundscape: Translucent panel slides, soft elastic pulls, and clean interface confirmations distinguish the three easing behaviors.
+non_diegetic_music: Minimal electronic clicks, rounded bass pulses, and a steady tonal bed emphasize the differences between the motion curves.
+ 
+---
+ 
+### 57. Follow-Through and Overlapping Action — Stopping Rooftop Courier
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 stylized feature-quality CG animation composed for 864×480, with clean topology, smooth easing, physically based studio lighting, coherent motion blur, and clearly layered secondary motion. An original courier runs across a simple rooftop carrying a light backpack and wearing a long scarf. The courier plants both feet and stops abruptly at the edge. The torso stops first, but the arms swing forward, the backpack rises away from the shoulders, and the scarf continues past the body in a broad arc. The knees absorb the remaining momentum. The backpack drops and rebounds against the back, while the scarf whips forward, reverses direction, and settles through progressively smaller waves after the character is already still.
+overall_soundscape: Rapid footsteps end in a firm shoe scrape. Backpack straps pull taut, fabric snaps in the wind, and the character releases one controlled breath.
+non_diegetic_music: Low percussion follows the run, then drops away so the delayed scarf and backpack movement remain clearly audible.
+ 
+---
+ 
+### 58. Follow-Through and Overlapping Action — Desert Creature
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 stylized feature-quality CG animation composed for 864×480, maintaining the same clean topology, smooth spline animation, soft physically based lighting, and clearly separated secondary motion. An original long-eared desert creature hears a sound behind it. Its eyes shift first, followed by the head, neck, shoulders, torso, and hips in overlapping succession. The long ears remain behind for several frames before swinging through their own arcs. A heavy tail begins turning last, crosses the body's final direction, and rebounds. The creature stops facing backward while the ears continue wobbling and the tail completes two decreasing swings. Each connected part follows the leading mass rather than moving simultaneously.
+overall_soundscape: Dry wind, a distant pebble tap, soft paw movement, ear flutters, and the tail brushing sand make the overlapping motion audible.
+non_diegetic_music: Sparse wooden percussion and low plucked strings follow the sequential movement from eyes through tail.
+ 
+---
+ 
+### 59. Follow-Through and Overlapping Action — Spinning Dancer
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 stylized feature-quality CG animation composed for 864×480, using the same polished character rendering, natural body mechanics, smooth animation curves, soft lighting, and delayed secondary action. An original dancer wearing a loose jacket and layered skirt initiates a fast clockwise turn. The head spots forward before rotating, the shoulders and torso follow, and the hips pull the legs into the turn. The jacket hem, sleeves, skirt panels, loose hair, and necklace trail at different delays according to their weight. The dancer plants one foot and stops in a clear final pose. The body settles first while the skirt circles past the legs, the jacket sleeves twist forward, the hair crosses the face, and the necklace completes one final pendulum swing.
+overall_soundscape: Shoes pivot across the floor, fabric layers sweep at different intensities, jewelry clicks softly, and the dancer exhales at the stop.
+non_diegetic_music: A compact percussion groove supports the turn, ending its main beat before the secondary clothing and hair motion fully settles.
+ 
+---
+ 
+### 60. Arcs, Timing, and Spacing — Ball Toss Pencil Test
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 rough animation pencil test composed for 864×480, showing graphite construction lines, blue underdrawing, red correction marks, registration holes, onion-skin ghosts, timing notes, and changing drawing spacing. An original character tosses a small ball from the left hand to the right. The wrist, elbow, and shoulder each travel through curved arcs rather than straight mechanical paths. The ball follows a clean parabolic trajectory. Drawings are widely spaced during the fast rise, tightly spaced near the apex, and wider again during the descent. The catching hand anticipates beneath the ball, receives it, and lowers through a small settling arc. A red correction line briefly emphasizes the intended ball path.
+overall_soundscape: Pencil strokes, paper flipping, a soft hand release, and one light catch make the test feel like an active animation desk.
+non_diegetic_music: A simple piano scale rises with the ball, pauses near the apex, and descends into the catch.
+ 
+---
+ 
+### 61. Arcs, Timing, and Spacing — Mallet Swing Pencil Test
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 rough graphite pencil test composed for 864×480, maintaining the same blue construction lines, red corrections, onion-skin ghosts, registration holes, timing charts, and visible spacing changes. An original worker swings a lightweight mallet toward a wooden peg. The hands travel through a broad curved path around the shoulders. The torso bends along a complementary arc while the hips counterbalance in the opposite direction. Closely spaced drawings define the slow raised anticipation, followed by increasingly wider spacing through the accelerated downswing. The mallet contacts the peg in one clear impact pose, then continues past the contact point through a follow-through arc before the worker recovers.
+overall_soundscape: Graphite scratches, paper sheets flip rapidly, the mallet cuts through the air, and the peg receives one dry impact.
+non_diegetic_music: Low piano notes mark the anticipation, with a rapid ascending roll into the strike and a soft resolving chord.
+ 
+---
+ 
+### 62. Arcs, Timing, and Spacing — Flying Bird Pencil Test
+**Prompt:**
+integrated_multimodal_description: [Shot 1] A 5.00-second 16:9 rough graphite pencil test composed for 864×480, using the same visible construction lines, blue underdrawing, red corrections, onion-skin frames, registration holes, and timing annotations. An original small bird flies across the page from left to right. Its body follows a shallow rising-and-falling arc while each wing tip traces a larger elliptical path. The head remains comparatively stable, the tail follows a delayed counter-arc, and the feet tuck through smaller curved paths. Wing drawings are tightly spaced at the top and bottom reversals, then spread farther apart through the fastest central portions of each stroke. The bird completes two readable wing cycles and lands on a curved branch, settling through a small body arc.
+overall_soundscape: Paper flipping blends with soft wing beats, a brief feather flutter, and a light claw contact on the drawn branch.
+non_diegetic_music: A gentle flute figure follows the bird's body arc while quiet piano notes mark the two wing cycles and landing.
+ 
+---
+ 
+### 63. I2V Anchor Test — Classical 1950s Cel Archer
+**Prompt:**
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+ 
+integrated_multimodal_description: [Shot 1] A 10.00-second 16:9 animation rendered in the look of classical 1950s American theatrical cel animation: elegant hand-inked contour lines with subtle line-weight variation, delicately tapered strokes, occasional dry-brush irregularity at the edges, lightly visible pencil energy beneath the final drawing, smooth full-animation movement, painted multiplane forest backgrounds, soft dappled light, and richly layered spring foliage. The opening frame fully references <Picture 1>, preserving the young archer’s identity, green tunic, dark tousled hair, quiver, bow, and forest mood, but only as a gentle opening anchor; after the first moment, the reference influence relaxes so the staging, motion, and performance can develop more freely while keeping the same character design. The archer begins already mid-stride, running briskly from left to right through the forest path for several seconds. His tunic skirts stream behind him, the quiver bounces with a believable delayed rhythm, his boots lift in clean arcing run cycles, and petals drift through shafts of sunlight. The camera remains visually centered on him and does not chase the target. His expression is alert and eager, and the nuanced line work remains lively, with subtle boil in the character outlines and gentle shimmer in the inked foliage.
+ 
+[Shot 2] At 00:03.000, he senses something in the distance off-screen. He abruptly checks his speed, plants his lead foot, and slides to a stop with a readable recoil through his torso and shoulders. His bow arm swings slightly forward, then settles. He turns his head toward the unseen target, eyes narrowing. He reaches over his shoulder, draws one arrow from the quiver in a smooth economical motion, and begins rotating into a shooting stance. The side of his face, the curve of the bow, and the folds of the tunic are all drawn with careful, expressive line nuance characteristic of mid-century cel craft.
+ 
+---
+ 
+### 64. I2V Weak-Reference Test — Rough Graphite Pencil Archer (Split-Screen)
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original young forest archer loosely derived from <Picture 1> only for the broad concept of a green-clad archer carrying a wooden bow and quiver. His exact face, proportions, clothing details, pose, composition, colors, and background are newly designed.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video tests rough graphite character animation as <Subject 1> runs, stops, prepares a shot, and fires toward a round target through an expanding split-screen layout.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the general archer role, bow, quiver, green clothing concept, and forest setting are retained; all specific visual design and staging are newly generated.
+ 
+detailed_description:
+The target video is presented as an animator’s rough pencil test with loose graphite contours, blue construction lines, red correction marks, registration holes, exposure notes, timing charts, onion-skin ghosts, changing line density, and visible exploratory redraws. The camera remains laterally locked on the archer while the drawings demonstrate arcs, spacing, anticipation, follow-through, and overlapping action.
+ 
+[Shot 1] <Subject 1> begins already mid-stride, running from left to right through a minimally indicated forest path. His run cycle uses clearly spaced poses: wide spacing during the fastest leg swings, closer drawings near each contact, and strong curved paths through the hands, feet, bow, and shoulders. The quiver and loose tunic tails lag behind the torso.
+ 
+At 00:03.000, he notices something ahead, plants one foot, and slides into a sharp stop. Onion-skin ghosts briefly reveal the overshoot of his chest, bow arm, tunic, and quiver before they settle. He reaches over his shoulder and draws one arrow through a clean arm arc.
+ 
+At 00:05.000, the drawing field divides into two vertical panels. The left panel shows his side profile as he nocks the arrow and raises the bow. The right panel shows a frontal facial construction study: brows lowering, jaw tightening, eyes aligning with the unseen target, and subtle corrections to the head angle. He draws the string with progressively closer spacing as tension increases.
+ 
+At 00:07.500, the release opens a third panel. The left panel shows his profile follow-through; the center preserves the frontal expression; the right tracks the arrow along a red correction arc toward a traditional round target mounted to a sketched tree. The arrow lands near the center at 00:09.400, while the bow, wrist, tunic, and quiver settle through delayed secondary motion.
+ 
+overall_soundscape:
+Graphite scratches, rapid paper flipping, light running footfalls, cloth movement, an arrow sliding from the quiver, a tightening bowstring, a crisp release, and a firm target impact create an active animation-desk soundscape.
+ 
+non_diegetic_music:
+A spare piano and woodblock timing track marks the run contacts, stop, draw, release, and impact without obscuring the pencil-test qualities.
+ 
+---
+ 
+### 65. I2V Weak-Reference Test — Mid-Century Theatrical Cel Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original young forest archer loosely derived from <Picture 1> only for the broad role of a green-clad archer with a wooden bow and quiver. His face, anatomy, clothing design, poses, forest composition, and palette are newly created.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video presents <Subject 1> through polished mid-century theatrical cel animation, culminating in synchronized profile, facial, and arrow-flight panels.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - the source contributes only the general archer archetype and spring forest concept; the final character design, movement, cinematography, and visual treatment are original.
+ 
+detailed_description:
+The target video uses classical mid-century American theatrical cel craft: delicately tapered hand-inked contours, subtle variation in line weight, occasional dry-brush texture, opaque cel paint, gently airbrushed shadows, richly painted multiplane forest backgrounds, smooth animation on ones, graceful arcs, strong silhouette staging, and natural overlap in hair, tunic, straps, and quiver.
+ 
+[Shot 1] A locked side-view composition follows <Subject 1> already running briskly from left to right while painted foreground blossoms, middle-ground trunks, and distant foliage move at different parallax rates. His boots follow clean elliptical paths, his shoulders counter-rotate against the hips, and the quiver bounces with delayed weight.
+ 
+At 00:03.000, he sees an off-screen target. His eyes lead the reaction, followed by his head, chest, hips, and planted foot. He slides to a stop, recoils slightly, and settles into a poised stance. His tunic and quiver continue moving after his body stops. He removes one arrow through a precise economical arc.
+ 
+At 00:05.000, the frame separates into two elegantly bordered vertical panels. The left panel shows his full side profile as he nocks the arrow and raises the bow. The right shows a frontal close-up in which his expression changes from alert surprise to calm concentration. The bow bends gradually, his shoulders lower into alignment, and his fingers hold the string with controlled tension.
+ 
+At 00:07.500, the release expands the design into three panels. The profile panel captures the bow snapping forward and his arm following through. The facial panel shows his focused gaze remain fixed. The third panel tracks the arrow through painted shafts of sunlight, drifting petals, and layered forest depth toward a traditional round target mounted on a tree. The arrow lands close to the center at 00:09.400, followed by a restrained confident reaction.
+ 
+overall_soundscape:
+Rhythmic bootfalls, foliage movement, quiver bounce, cloth rustle, the dry wooden slide of the arrow, bow tension, a bright string twang, arrow whistle, and a solid target impact remain synchronized with the hand-drawn action.
+ 
+non_diegetic_music:
+Warm strings, nimble woodwinds, harp accents, and light orchestral percussion support the running rhythm, narrow during the aim, and bloom into a brief heroic cadence at impact.
+ 
+---
+ 
+### 66. I2V Weak-Reference Test — Energetic Xerographic Cel Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original forest archer using <Picture 1> only as a weak reference for the broad concept of a young bow-wielding traveler in green. Exact identity, clothing details, pose, proportions, colors, and setting layout are not preserved.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video tests energetic xerographic cel animation, rough transferred pencil contours, smear drawings, and sharp comic timing through the archer’s run-and-fire sequence.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the general archer function and forest context carry over; the visual design and animation are freely reinterpreted.
+ 
+detailed_description:
+The target video uses rough xerographic cel animation with transferred pencil contours, visible construction energy, irregular line weight, dry-brush accents, flat painted color, graphic shadows, occasional one-frame smears, and brisk hand-drawn timing. The forest background uses loose gouache shapes and energetic brush texture rather than polished realism.
+ 
+[Shot 1] <Subject 1> races from left to right in a locked side composition. His run is animated with bold key poses and aggressive spacing. During the fastest strides, his limbs briefly stretch into dry-brush smear drawings while the bow and tunic form graphic trailing shapes. The quiver bucks heavily against his back.
+ 
+At 00:03.000, his eyes snap toward the unseen target. He plants his lead boot in a single strong impact pose, skids, and recoils. A short dust streak and one exaggerated stretched drawing emphasize the stop. His torso settles while the quiver and tunic overshoot.
+ 
+He yanks one arrow free with a quick diagonal motion. At 00:05.000, a rough black divider slashes down the image, forming two panels. The left profile panel shows the fast nocking action and bow lift. The right frontal panel uses tighter facial drawings, flickering pencil lines, and one sharp blink before his eyes lock forward. The string draw moves from broad spacing into tightly packed drawings at full tension.
+ 
+At 00:07.500, the release creates a third panel through a dry-brush wipe. One graphic impact drawing captures the string snap. The new panel tracks the arrow with hand-painted speed marks and intermittent smear frames. The round target on the tree grows rapidly in the panel as the arrow approaches and strikes near center at 00:09.300. The final beat holds the archer’s rough but readable follow-through while his clothing finishes settling.
+ 
+overall_soundscape:
+Fast footfalls, brushy wind sweeps, rough fabric snaps, quiver knocks, a scraped arrow draw, strained bow tension, a sharp twang, a fast whistle, and a dry wooden impact emphasize the energetic xerographic timing.
+ 
+non_diegetic_music:
+Brisk brass bursts, snare accents, plucked strings, and short woodwind runs hit the major key poses and graphic transitions.
+ 
+---
+ 
+### 67. I2V Weak-Reference Test — Mid-Century Modernist Graphic Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original graphic archer using <Picture 1> only as a broad reference for a forest traveler equipped with a bow and quiver. His exact identity, anatomy, costume, pose, and environment are replaced by simplified geometric design.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video translates the archer sequence into restrained mid-century graphic animation with held poses, selective movement, bold layouts, and poster-like split-screen design.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the archer role and forest idea remain; all recognizable source-specific features are intentionally discarded.
+ 
+detailed_description:
+The target video uses flat mid-century modernist animation with asymmetric composition, simplified silhouettes, bold restrained blocks of olive, cream, rust, and charcoal, sparse linework, selective limited movement, sharp geometric transitions, and economical held poses. The forest is reduced to vertical trunks, circular leaf clusters, and angled ground shapes.
+ 
+[Shot 1] <Subject 1> begins in a clean held running pose while his legs cycle through four strong graphic drawings. The torso changes only when needed, the bow remains a clear curved silhouette, and small rectangular background shapes slide left to imply forward travel. His quiver bobs through two repeating positions.
+ 
+At 00:03.000, a small target symbol appears briefly in his eye line. His pupils move first, followed by one sharp head turn. He enters a broad braking pose, slides on a flat wedge-shaped dust mark, and locks into an upright silhouette. The tunic hem settles one beat later.
+ 
+He reaches back through three economical arm poses and produces a single arrow. At 00:05.000, a cream rectangle pushes inward and divides the frame into two balanced poster panels. The left panel shows the profile pose changing through distinct steps as he nocks and raises the bow. The right panel isolates his face in a circular field; only his eyes, brow, and mouth move as concentration increases.
+ 
+At 00:07.500, a third narrow panel slides open. The arrow releases as a single black line with a triangular head, crossing stylized bands of trees at constant graphic speed. Concentric circles expand around the target mounted to a simplified tree. The arrow strikes near center at 00:09.300. All three panels settle into one final balanced poster composition.
+ 
+overall_soundscape:
+Clean foot taps, restrained graphic swishes, dry wooden clicks, one taut bow creak, a compact release, and a precise target knock give the abstract world physical clarity.
+ 
+non_diegetic_music:
+Cool-jazz vibraphone, brushed drums, upright bass, and muted trumpet follow the limited pose changes and panel transitions.
+ 
+---
+ 
+### 68. I2V Weak-Reference Test — Articulated Silhouette Paper Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original articulated silhouette archer using <Picture 1> only for the broad concept of a youthful forest bowman with a quiver. No exact facial features, costume details, colors, anatomy, or composition are preserved.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video retells the run, aim, and arrow flight through articulated black-paper silhouettes, decorative profiles, layered glass-plane depth, and theatrical split-screen panels.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - the source contributes only the functional archer archetype; the output is a newly designed ornamental paper figure.
+ 
+detailed_description:
+The target video uses ornate silhouette cutout animation with flat black articulated figures, visible paper fibers, hinged shoulders, elbows, wrists, hips, knees, and ankles, decorative profile shapes, translucent colored backgrounds, layered glass-plane parallax, and slightly stepped movement. The forest consists of patterned paper trunks, curling vines, and translucent amber-green foliage.
+ 
+[Shot 1] <Subject 1> runs from left to right in strict profile. Each joint rotates visibly through cut-paper increments while his long tunic flap and quiver strap move on separate articulated layers. Foreground reeds and distant hills slide at different speeds behind him.
+ 
+At 00:03.000, his head pivots sharply toward the unseen target. He plants his forward foot, leans back, and stops through a sequence of clearly hinged poses. His quiver swings past his back before returning. He reaches over one shoulder, removes a long narrow paper arrow, and lowers into a composed shooting stance.
+ 
+At 00:05.000, two decorative paper frames unfold from the sides. The left retains the full profile silhouette. The right presents a frontal mask-like portrait assembled from symmetrical paper shapes; small cutout openings in the eyes narrow as he focuses. The bow bends through layered curved strips while the string stretches between his hands.
+ 
+At 00:07.500, a third ornamental panel opens like a hinged screen. The arrow detaches and travels across layered forest planes. Small leaf silhouettes rotate in its wake. A patterned circular target mounted to a tree enters from the right side of the flight panel. The arrow strikes the inner ring at 00:09.300, causing the target and nearby leaves to vibrate through tiny stepped movements. The archer remains in a strong profile follow-through pose.
+ 
+overall_soundscape:
+Paper joints click, layered cutouts brush against one another, footsteps tap on the miniature surface, the bow creaks like bent card, and the arrow passes with a papery whistle before striking the target.
+ 
+non_diegetic_music:
+Harp, bowed cello, hand drum, and delicate metallic percussion create a restrained theatrical fantasy accompaniment.
+ 
+---
+ 
+### 69. I2V Weak-Reference Test — Paint-on-Glass Fluid Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original painted forest archer using <Picture 1> only as a weak conceptual reference for a running bowman in a green woodland. His exact identity, proportions, outfit, pose, and environment are not preserved.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video explores fluid paint-on-glass transformation, wet brush movement, and luminous pigment while retaining the clear action of running, aiming, and firing.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the broad archer and forest concepts remain; all visual details emerge through newly painted forms.
+ 
+detailed_description:
+The target video uses wet oil paint on glass with thick luminous pigment, visible brush pressure, continuously repainted edges, smeared intermediate forms, soft backlighting, pigment pooling, and fluid transformation between poses. The imagery remains representational enough for the action to read, but every frame visibly evolves through redistributed paint.
+ 
+[Shot 1] <Subject 1> runs from left to right as a dark green and umber painted figure against a luminous forest of turquoise, gold, and moss pigment. His limbs are repainted into successive positions, leaving faint wet trails that become leaves and shadows. The camera remains compositionally locked while the background flows past as broad horizontal brush movement.
+ 
+At 00:03.000, his face turns toward a bright distant point. His forward momentum smears into a long green brush shape, then gathers back into a planted stopping pose. The quiver continues as a curved wet streak before settling behind him. He pulls one arrow from a cluster of vertical painted marks.
+ 
+At 00:05.000, a dark painted line grows downward and separates the glass into two fluid panels. In the left, his profile forms and reforms as he nocks the arrow. In the right, a frontal face emerges from layered umber, rose, and black strokes; the eyes sharpen as excess pigment is wiped away. The bow becomes a clean curved brown stroke under tension.
+ 
+At 00:07.500, a third panel is painted into existence. The arrow releases as a narrow dark streak moving through flowing bands of foliage. Its wake pulls small ribbons of color toward the target. A traditional circular target resolves from concentric wet rings on a painted tree. The arrow enters the inner rings at 00:09.300, creating a brief ripple through the wet pigment before the composition stabilizes.
+ 
+overall_soundscape:
+Wet brushes drag across glass, pigment shifts with soft liquid sounds, footsteps remain muted and painterly, the bow releases with a softened twang, and the arrow impact produces a deep damp wooden knock.
+ 
+non_diegetic_music:
+Slow bowed strings, glass harmonics, low hand percussion, and a distant wooden flute follow the fluid motion without imposing rigid timing.
+ 
+---
+ 
+### 70. I2V Weak-Reference Test — Backlit Sand-on-Glass Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original sand-drawn archer derived from <Picture 1> only as a broad conceptual cue for a forest archer carrying a bow and arrows. No exact identity, clothing construction, anatomy, pose, or setting composition is retained.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video uses luminous sand-on-glass animation to depict the archer’s run, stop, split-screen aim, and arrow strike through additive and subtractive granular drawing.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the archer role and forest context are loosely retained; the character and environment are rebuilt entirely from sand.
+ 
+detailed_description:
+The target video uses backlit sand-on-glass animation with visible grains, finger-drawn edges, changing particle density, broad hand sweeps, delicate subtractive highlights, granular metamorphosis, and no hard photographic detail. The action remains legible through strong silhouettes and clearly staged movement.
+ 
+[Shot 1] A dark sand figure of <Subject 1> runs from left to right across a glowing amber field. His legs are redrawn through sweeping granular arcs, while small sand clusters detach from his tunic and become drifting leaves. Vertical smudges suggest tree trunks moving behind him.
+ 
+At 00:03.000, his head turns and a narrow bright eye is wiped from the silhouette. He plants his foot, causing a spray of grains to rise ahead of him. His body compresses backward, and the quiver swings as a separate granular mass. He reaches over his shoulder and pulls a single thin arrow shape from the quiver.
+ 
+At 00:05.000, two vertical clear spaces are wiped through the sand, dividing the field into panels. The left shows his profile as he raises the bow. The right forms a frontal face through dark sand, with the brows and eyes refined by fingertip subtraction. The string appears as one fine grain line pulled gradually backward.
+ 
+At 00:07.500, a third panel opens through a fast hand sweep. The arrow becomes a narrow moving streak, continuously erased behind and rebuilt ahead. Granular leaves swirl into its wake. A round target mounted to a tree forms from concentric sand circles. The arrow reaches the inner ring at 00:09.300, scattering a small burst of grains before they settle. The archer’s remaining motion gently resolves in the other panels.
+ 
+overall_soundscape:
+Fine grains scrape across glass, hands sweep through sand, footsteps register as muted dry contacts, the bowstring releases with a restrained snap, and the impact creates a short granular rush.
+ 
+non_diegetic_music:
+Frame drum, breathy reed flute, low bowed tones, and sparse metallic taps form a meditative but purposeful rhythmic bed.
+ 
+---
+ 
+### 71. I2V Weak-Reference Test — Tactile Clay Stop-Motion Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original clay forest archer loosely informed by <Picture 1> only as a broad concept: a young archer in green carrying a bow and quiver. His exact identity, proportions, facial design, costume construction, and setting are newly sculpted.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video tests tactile clay stop-motion, stepped physical acting, miniature sets, and practical split-screen staging through the archer sequence.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the general archer role and forest setting remain; all forms are newly interpreted as plasticine miniatures.
+ 
+detailed_description:
+The target video uses clay animation with softly sculpted plasticine, visible thumbprints, replacement facial pieces, gentle surface wobble, stepped movement, practical miniature lighting, shallow miniature depth of field, and subtle registration variation. The forest is a handcrafted set of clay trunks, sponge foliage, paper flowers, and textured ground.
+ 
+[Shot 1] <Subject 1> runs from left to right across the miniature forest path. His legs change through strong sculpted contact, passing, and airborne poses. The clay tunic flexes, the quiver bounces, and small paper petals drift on nearly invisible wires. The camera remains locked relative to the character’s action plane.
+ 
+At 00:03.000, his replacement eyes shift toward the distant target. He plants one boot, compresses through the clay hips and knees, and skids, slightly deforming the ground. His upper body stops while the quiver and tunic continue through two delayed poses. He reaches back and extracts one individually sculpted arrow.
+ 
+At 00:05.000, two miniature frames slide physically into place, creating a split-screen diorama. The left contains the side-profile puppet raising the bow. The right contains a larger replacement bust of the same character facing forward, allowing detailed eyebrow, eyelid, and mouth changes while he concentrates. Both performances remain synchronized through stepped poses.
+ 
+At 00:07.500, a third miniature panel pops open. The arrow releases from the profile figure. In the third panel, a separate arrow puppet advances through the set in discrete increments while the background shifts behind it. It reaches a round painted target fixed to a miniature tree at 00:09.300. The target wobbles, the arrow vibrates, and the archer’s clay costume completes its follow-through.
+ 
+overall_soundscape:
+Clay boots make soft sticky contacts, miniature foliage rustles, the quiver knocks against the puppet, joints and replacement pieces click faintly, and the arrow hits the target with a small but solid wooden thunk.
+ 
+non_diegetic_music:
+Marimba, bassoon, pizzicato strings, and light hand percussion follow the stepped physical timing with playful precision.
+ 
+---
+ 
+### 72. I2V Weak-Reference Test — Rotoscoped Painterly Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original forest archer using <Picture 1> only as a loose reference for the general role of a young archer running through woodland. Exact facial identity, costume details, body proportions, poses, and colors are not preserved.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video combines lifelike rotoscoped timing with unstable ink contours, painterly fills, and expressive split-screen portraiture.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - the broad archer concept remains, while the character design, acting, clothing, environment, and cinematography are independently generated.
+ 
+detailed_description:
+The target video uses rotoscoped painterly animation with believable human weight shifts, realistic running mechanics, inked contour lines, layered brush fills, subtly drifting facial features, changing color boundaries, and restrained frame-to-frame redraw variation. The forest remains recognizable but its shadows and foliage breathe through unstable painted movement.
+ 
+[Shot 1] <Subject 1> runs from left to right in a locked side composition with grounded foot placement and natural transfer of weight through the hips and torso. His bow hand stabilizes against the run while the free arm counters his stride. Hair, tunic, quiver strap, and loose fabric follow the body at different delays.
+ 
+At 00:03.000, his gaze shifts ahead. He turns his head, shortens one stride, plants the next foot, and decelerates through physically believable steps rather than an exaggerated skid. His torso moves slightly beyond the planted legs before returning. He reaches over his shoulder and removes one arrow without losing balance.
+ 
+At 00:05.000, the composition separates into two painted panels. The left maintains the full profile and realistic body mechanics as he nocks and draws. The right shows a frontal close-up, preserving natural micro-movements: breathing, eye alignment, a tightening jaw, and subtle brow tension. The painterly outlines drift slightly while the underlying anatomy remains coherent.
+ 
+At 00:07.500, a third panel opens with a brushed edge. The arrow leaves the bow, rotating slightly along its axis as the camera tracks beside it. Leaves and light pass with believable depth. A traditional round target mounted to a tree approaches in the flight panel. The arrow strikes near center at 00:09.300. The profile panel shows his shoulders and wrist complete the release while the facial panel holds his focused gaze.
+ 
+overall_soundscape:
+Natural forest ambience, grounded footsteps, breathing, fabric motion, wood scraping against leather, bow tension, a sharp release, aerodynamic arrow movement, and a firm target impact support the realistic body mechanics.
+ 
+non_diegetic_music:
+Detuned electric piano, soft frame drum, sustained strings, and restrained ambient texture emphasize concentration rather than heroic spectacle.
+ 
+---
+ 
+### 73. I2V Weak-Reference Test — Comic-Print Hybrid Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original comic-style forest archer using <Picture 1> only as a weak conceptual reference for a green-clad bowman with a quiver. Exact identity, anatomy, clothing design, pose, palette, and forest composition are newly generated.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video presents the archer sequence through a contemporary comic-print hybrid of dimensional environments, stepped character animation, halftone shading, variable frame rates, graphic panels, and stylized arrow tracking.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]): weak_reference - only the broad archer concept carries over; the output uses an entirely new graphic character design and visual world.
+ 
+detailed_description:
+The target video combines a dimensional 3D forest with hand-drawn character animation on twos, inked contours, halftone shadows, chromatic misregistration, offset print textures, graphic impact frames, painted motion streaks, and variable frame rates. The environment moves smoothly while the archer shifts through bold stepped poses.
+ 
+[Shot 1] <Subject 1> runs from left to right through a curved dimensional forest path. His body advances through strong graphic key poses while the camera and environment move smoothly, creating deliberate temporal contrast. Each foot contact produces a brief halftone burst. His tunic, hair, and quiver animate at slightly different frame rates.
+ 
+At 00:03.000, the background momentarily loses color as he notices the target. His eyes sharpen in a single close graphic insert embedded within the frame, then he plants his foot. One full-frame smear drawing carries him into the stop, followed by a bold recovery pose. He grabs one arrow, and cyan-magenta registration shadows briefly separate around the fast-moving hand.
+ 
+At 00:05.000, the image breaks into two comic panels. The left profile panel shows his full figure nocking the arrow. The right frontal panel uses an extreme facial crop with halftone shadow, subtle color misalignment, and a narrow highlight across both eyes. The bowstring draw progressively reduces the animation frame rate until he reaches a held tension pose.
+ 
+At 00:07.500, a third diagonal panel slams into place on the release. A one-frame graphic impact image shows the bow, hand, and arrow as abstract black-and-color shapes. The arrow then flies at full frame rate through the 3D forest while hand-painted motion streaks and small comic-print bursts follow it. It reaches a traditional round target mounted on a tree at 00:09.300. The strike produces a graphic starburst before returning to the three-panel layout for the archer’s final follow-through.
+ 
+overall_soundscape:
+Stylized footsteps, paper-like impact slaps, fabric snaps, quiver rattles, a sharply processed bow release, layered arrow whooshes, and a dense target hit synchronize with the changing frame rates.
+ 
+non_diegetic_music:
+Punchy hip-hop drums, chopped brass, elastic synth bass, and turntable-like accents intensify through the panel expansion and stop cleanly on the target strike.
+ 
+---
+ 
+### 74. I2V Weak-Reference Test — 1990s Arcade Pixel-Art Cutscene Archer
+**Prompt:**
+subject_definitions:
+<Subject 1> is an original young forest archer newly designed for the target video, carrying a wooden bow and back-mounted quiver and wearing simple green adventuring clothes. <Picture 1> contributes only the broad archer concept and general mid-stride body orientation; it does not define his facial identity, exact anatomy, costume construction, palette, rendering, or animation style.
+<Picture 1> is a weak storyboard and composition reference providing only a loose side-view arrangement of an archer moving through a forest, the approximate relationship between his body, bow, and quiver, and the general direction of travel.
+ 
+summary:
+[reference generation] The 10.00-second 16:9 target video loosely borrows <Picture 1>'s broad side-view archer composition while freely redesigning all characters, scenery, poses, colors, and rendering as an original 1990s arcade pixel-art cutscene.
+ 
+retention_analysis:
+<Subject 1> (appears throughout [Shot 1]–[Shot 4]): weak_reference - only the generic role of a young forest archer with a bow, quiver, green clothing, and left-to-right travel is retained; his face, proportions, sprite design, costume details, movement, and palette are newly generated.
+<Picture 1> (loose composition and pose guidance): weak_reference - it provides only an approximate side-view action arrangement and does not control the first frame, visual style, exact pose, background design, lighting, or character identity.
+ 
+detailed_description:
+The target video uses an original 1990s arcade pixel-art cutscene aesthetic with chunky hand-placed pixels, bold sprite silhouettes, limited but expressive animation frames, dithered shading, saturated forest colors, crisp nearest-neighbor edges, layered parallax scrolling, and occasional one-frame impact sprites. Do not reproduce the painting, linework, watercolor finish, exact character design, or exact composition of <Picture 1>.
+ 
+[Shot 1] A newly designed archer sprite begins already mid-stride, running from left to right through a side-scrolling forest. The loose side-view relationship between the archer, bow, and quiver may echo <Picture 1>, but the framing, anatomy, costume, colors, foliage, and sprite design are original. His green tunic flaps through a four-frame loop, the quiver bounces one animation frame behind his torso, and small pixel petals drift across three parallax layers. The camera remains locked in a game-like lateral composition while the forest scrolls smoothly behind him.
+ 
+[Shot 2] At 00:03.000, the archer notices a distant off-screen target. His eyes shift first, then his head snaps toward it. He plants one boot, slides several pixels with a short dust sprite, and leans backward through a clear braking pose. His torso stops before the quiver and tunic finish their delayed movement. He reaches over his shoulder, removes one arrow through a fast sprite sequence, and rotates into an alert shooting stance.
+ 
+[Shot 3] At 00:05.000, bold pixel borders divide the screen into two vertical panels. The left panel shows a full side-profile sprite as he nocks the arrow and raises the bow. The right panel shows a larger newly designed frontal portrait sprite, with narrowed eyes, dithered facial shadows, and a determined expression. Both panels remain synchronized as the bow bends frame by frame and the string reaches full tension.
+ 
+[Shot 4] At 00:07.500, the release expands the layout into three bordered panels. The left panel shows the profile release and bow-arm follow-through. The center panel holds the frontal face at the instant his focused expression sharpens. The new right panel tracks the arrow as a bright pixel streak with small motion-spark sprites. It travels through the scrolling forest toward a traditional round target mounted on a tree. At 00:09.200, the arrow strikes near the center with a flashing impact sprite. The target vibrates through two frames while the archer's tunic, quiver, and bow arm settle in the other panels.
+ 
+overall_soundscape:
+Looping retro forest ambience includes simple birdsong, light wind, and pixelated leaf rustle. Rhythmic game footsteps, a short skid, an inventory-like arrow draw, a taut bow creak, a crisp synthesized twang, an 8-bit flight whoosh, and a bright wooden impact follow the action.
+ 
+non_diegetic_music:
+Upbeat 1990s arcade-fantasy music uses FM-synth leads, square-wave melody, electronic drums, and a driving synthesized bass line. The arrangement thins during the aiming panels and resolves with a short triumphant flourish at the target strike.

@@ -80,6 +80,15 @@ exposed via `batch` for T2V, so use `t2v_multi`):
 ```
 modal run api.py::t2v_multi --prompts $'prompt line 1\nprompt line 2'
 ```
+Multi-file T2V, one whole prompt per file, read VERBATIM off disk (safest — no
+shell line-splitting; each file = one take, so no fragment clips):
+```
+modal run api.py::t2v_files --paths "Vignettes/sweeper.txt,Vignettes/clock.txt" \
+    --duration 10 --width 864 --height 480 --mode turbo
+```
+`t2v_multi --prompts` is one prompt per line and **aborts** if it sees collapsed
+section headers (e.g. `subject_definitions:`, `[Shot N]`, `overall_soundscape:`)
+— use `t2v_files` for multi-paragraph prompts.
 
 ### Single clip — comfy_app main (R2V, verbose)
 ```

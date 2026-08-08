@@ -1,0 +1,11 @@
+integrated_multimodal_description: [Shot 1] A 10.00-second 16:9 limited 2D graphic animation composed for 864×480, using asymmetric layouts, simplified silhouettes, bold restrained color blocks of cream and teal, sparse linework, crisp poster-like staging, and economical held poses. An angular office worker sits alone at a small brass-trimmed desk beside an enormous red filing cabinet. His body remains in a held seated pose, his head slightly bowed toward the drawer. The clock on the wall ticks quietly; the room is otherwise perfectly still. He reaches up with one flat palm, holding a brass key, and opens a single drawer. At 00:02.500, the drawer slides open just enough.
+
+[Shot 2] Inside the drawer lies a single faded photograph, face-up: a bright summer street where two figures — the worker, younger, an arm around a companion — are frozen mid-laugh. The worker does not smile. Only his eyes move, tracing the photograph once, top to bottom. A dust particle drifts across the light between him and the photo. He lifts the photo with two fingertips, turns it slightly, and for a moment the cream-and-teal room floods softly toward the warm gleam of the paper.
+
+[Shot 3] At 00:05.000 he turns the photograph fully toward himself in two clean, held key frames — as if reading a message — then lowers it back onto the desk, face-down. The warm glow recedes; the quiet cream and teal return. He lets out a long, slow breath and lets his shoulder rest.
+
+[Shot 4] At 00:07.500, he pushes the drawer closed in a single weightless, precise motion. The cabinet accepts it with a soft click. He bows his head slightly, rests both hands in his lap, and stays perfectly still. His eyes move to the ticking clock, then down to the closed drawer, and stay there. The clock ticks. The room holds its silence.
+
+overall_soundscape: The drawer slides open with a smooth wooden glide and a dry stop; a paper crinkle, a soft breath, a quiet radiator hum. The clock ticks once, twice, three times. After the drawer closes, near-silence remains, only the distant hum of an old radiator and the steady tick of the clock.
+
+non_diegetic_music: Sparse cool jazz, muffled vibraphone and muted trumpet wander low in the background, then thin out at 00:07.500 into a single bare piano note, which rings out into the final tick-tock and fades to a warm, empty chord.
